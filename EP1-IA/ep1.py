@@ -13,8 +13,8 @@
   ENTENDO QUE EPS SEM ASSINATURA NAO SERAO CORRIGIDOS E,
   AINDA ASSIM, PODERAO SER PUNIDOS POR DESONESTIDADE ACADEMICA.
 
-  Nome :
-  NUSP :
+  Nome : Daniela Gonzalez Favero
+  NUSP : 10277443
 
   Referencias: Com excecao das rotinas fornecidas no enunciado
   e em sala de aula, caso voce tenha utilizado alguma referencia,
@@ -39,29 +39,50 @@ class SegmentationProblem(util.Problem):
 
     def isState(self, state):
         """ Metodo que implementa verificacao de estado """
-        raise NotImplementedError
+        string = state[0]
+        cost = state[1]
+        index = state[2]
+        if not isinstance(string, str) or len(string) > len(query):
+            return False
+        if not isinstance(cost, float) or not isinstance(index, int):
+            return False
+        return True
 
     def initialState(self):
         """ Metodo que implementa retorno da posicao inicial """
-        raise NotImplementedError
+        string = self.query
+        cost = self.unigramCost(string)
+        return (string, cost, 0)
 
     def actions(self, state):
         """ Metodo que implementa retorno da lista de acoes validas
         para um determinado estado
         """
-        raise NotImplementedError
+        string = state[0]
+        string = string.split()[-1]
+        index = state[2]
+        actions_list = [(i + index) for i in range(index - 1, len(string) - 1)] # TODO ????
+        return actions_list
 
     def nextState(self, state, action):
         """ Metodo que implementa funcao de transicao """
+        string = state[0]
+        string = string[:action] + " " + string[action:]
+        # string.split() TODO ???????????
+        cost = self.unigramCost(string)
+        return string, cost
         raise NotImplementedError
 
     def isGoalState(self, state):
         """ Metodo que implementa teste de meta """
-        raise NotImplementedError
+        index = state[2]
+        return index >= len(self.query)
+
 
     def stepCost(self, state, action):
         """ Metodo que implementa funcao custo """
-        raise NotImplementedError
+        return self.nextState(state, action)[1]
+
 
 
 def segmentWords(query, unigramCost):
@@ -73,7 +94,7 @@ def segmentWords(query, unigramCost):
     # Voce pode usar a função getSolution para recuperar a sua solução a partir do no meta
     # valid,solution  = util.getSolution(goalNode,problem)
 
-    raise NotImplementedError
+    segment = SegmentationProblem(query, unigramCost)
 
     # END_YOUR_CODE
 
