@@ -39,43 +39,39 @@ class SegmentationProblem(util.Problem):
 
     def isState(self, state):
         """ Metodo que implementa verificacao de estado """
-        string = state[0]
+        index = state[0]
         cost = state[1]
-        index = state[2]
-        if not isinstance(string, str) or len(string) > len(query):
+        if not isinstance(index, int) or index > len(self.query):
             return False
-        if not isinstance(cost, float) or not isinstance(index, int):
+        if not isinstance(cost, float):
             return False
         return True
 
     def initialState(self):
         """ Metodo que implementa retorno da posicao inicial """
-        string = self.query
-        cost = self.unigramCost(string)
-        return (string, cost, 0)
+        cost = self.unigramCost(self.query)
+        return (0, cost)
 
     def actions(self, state):
         """ Metodo que implementa retorno da lista de acoes validas
         para um determinado estado
         """
-        string = state[0]
-        string = string.split()[-1]
-        index = state[2]
-        actions_list = [(i + index) for i in range(index - 1, len(string) - 1)] # TODO ????
+        index = state[0]
+        actions_list = []
+        for i in range(index + 1, len(self.query) + 1):
+            actions_list.append(str(i))
         return actions_list
 
     def nextState(self, state, action):
         """ Metodo que implementa funcao de transicao """
-        string = state[0]
-        string = string[:action] + " " + string[action:]
-        # string.split() TODO ???????????
-        cost = self.unigramCost(string)
-        return string, cost
-        raise NotImplementedError
+        index = state[0]
+        action = int(action)
+        cost = self.unigramCost(self.query[index:action])
+        return action, cost
 
     def isGoalState(self, state):
         """ Metodo que implementa teste de meta """
-        index = state[2]
+        index = state[0]
         return index >= len(self.query)
 
 
@@ -84,19 +80,30 @@ class SegmentationProblem(util.Problem):
         return self.nextState(state, action)[1]
 
 
-
 def segmentWords(query, unigramCost):
 
     if len(query) == 0:
         return ''
-     
+    
     # BEGIN_YOUR_CODE 
     # Voce pode usar a função getSolution para recuperar a sua solução a partir do no meta
     # valid,solution  = util.getSolution(goalNode,problem)
 
-    segment = SegmentationProblem(query, unigramCost)
+    problem = SegmentationProblem(query, unigramCost)
+    goalNode = util.uniformCostSearch(problem)
+    valid, solution = util.getSolution(goalNode, problem)
 
-    # END_YOUR_CODE
+    if valid:
+        solution = solution.split(' ')
+        answer = ""
+        prev = 0
+        for index in solution:
+            cut = int(index)
+            print( query[prev:cut])
+            answer += query[prev:cut] + " "
+            prev = cut
+        return answer[:-1]
+    return None
 
 ############################################################
 # Part 2: Vowel insertion problem under a bigram cost
