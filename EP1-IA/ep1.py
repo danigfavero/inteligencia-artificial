@@ -122,6 +122,8 @@ class VowelInsertionProblem(util.Problem):
             return False
         if not isinstance(state[1], int) or state[1] >= len(self.queryWords):
             return False
+        if not isinstance(state[2], int):
+            return False
         return True
 
     def initialState(self):
@@ -135,12 +137,13 @@ class VowelInsertionProblem(util.Problem):
         index = state[1] 
         word = self.queryWords[index]
         possible_fills = list(self.possibleFills(word))
-        possible_fills.append(word)
-        return possible_fills
+        if possible_fills:
+            return possible_fills
+        return [word]
 
     def nextState(self, state, action):
         """ Metodo que implementa funcao de transicao """
-        cost = self.bigramCost(state[1], action)
+        cost = self.bigramCost(state[0], action)
         return action, state[1] + 1, cost
 
     def isGoalState(self, state):
