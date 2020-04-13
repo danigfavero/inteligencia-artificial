@@ -137,9 +137,9 @@ class VowelInsertionProblem(util.Problem):
         index = state[1] 
         word = self.queryWords[index]
         possible_fills = list(self.possibleFills(word))
-        if possible_fills:
-            return possible_fills
-        return [word]
+        if not possible_fills:
+            possible_fills = [word]
+        return possible_fills
 
     def nextState(self, state, action):
         """ Metodo que implementa funcao de transicao """
