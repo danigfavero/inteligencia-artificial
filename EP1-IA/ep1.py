@@ -99,11 +99,13 @@ def segmentWords(query, unigramCost):
         prev = 0
         for index in solution:
             cut = int(index)
-            print( query[prev:cut])
             answer += query[prev:cut] + " "
             prev = cut
         return answer[:-1]
+
     return None
+
+    # END_YOUR_CODE
 
 ############################################################
 # Part 2: Vowel insertion problem under a bigram cost
@@ -116,29 +118,39 @@ class VowelInsertionProblem(util.Problem):
 
     def isState(self, state):
         """ Metodo  que implementa verificacao de estado """
-        raise NotImplementedError
+        if not isinstance(state[0], str):
+            return False
+        if not isinstance(state[1], int) or state[1] >= len(self.queryWords):
+            return False
+        return True
 
     def initialState(self):
         """ Metodo  que implementa retorno da posicao inicial """
-        raise NotImplementedError
+        return util.SENTENCE_BEGIN, 0, 0
 
     def actions(self, state):
         """ Metodo  que implementa retorno da lista de acoes validas
         para um determinado estado
         """
-        raise NotImplementedError
+        index = state[1] 
+        word = self.queryWords[index]
+        possible_fills = list(self.possibleFills(word))
+        possible_fills.append(word)
+        return possible_fills
 
     def nextState(self, state, action):
         """ Metodo que implementa funcao de transicao """
-        raise NotImplementedError
+        cost = self.bigramCost(state[1], action)
+        return action, state[1] + 1, cost
 
     def isGoalState(self, state):
         """ Metodo que implementa teste de meta """
-        raise NotImplementedError
+        index = state[1]
+        return index >= len(self.queryWords)
 
     def stepCost(self, state, action):
         """ Metodo que implementa funcao custo """
-        raise NotImplementedError
+        return self.nextState(state, action)[2]
 
 
 
@@ -146,7 +158,19 @@ def insertVowels(queryWords, bigramCost, possibleFills):
     # BEGIN_YOUR_CODE 
     # Voce pode usar a função getSolution para recuperar a sua solução a partir do no meta
     # valid,solution  = util.getSolution(goalNode,problem)
-    raise NotImplementedError
+
+    if len(queryWords) == 0:
+        return ''
+   
+    problem = VowelInsertionProblem(queryWords, bigramCost, possibleFills)
+    goal = util.uniformCostSearch(problem)
+    valid, solution = util.getSolution(goal, problem)
+
+    if valid:
+        return solution
+
+    return None
+
     # END_YOUR_CODE
 
 ############################################################
