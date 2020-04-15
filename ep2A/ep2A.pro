@@ -1,14 +1,42 @@
 %%%%% Insira aqui os seus predicados.
-%%%%% Use quantos predicados auxiliares julgar necess�rio
+%%%%% Use quantos predicados auxiliares julgar necessario
+
+% Exercício 1
+
+% Exercício 2
+
+% Exercício 3
+uniao_conjunto([], Cs, Cs).
+uniao_conjunto([C | Cs], Ds, Es) :-
+    member(C, Ds),
+    uniao_conjunto(Cs, Ds, Es).
+uniao_conjunto([C | Cs], Ds, [C | Es]) :-
+    \+ member(C, Ds),
+    uniao_conjunto(Cs, Ds, Es).
+
+% Exercício 4
+inter_conjunto([], _, []).
+inter_conjunto([C | Cs], Ds, Es) :-
+    \+ member(C, Ds),
+    inter_conjunto(Cs, Ds, Es).
+inter_conjunto([C | Cs], Ds, [C | Es]) :-
+    member(C, Ds),
+    inter_conjunto(Cs, Ds, Es).
 
 
-
-
-
+% Exercício 5
+diferenca_conjunto([], _, []).
+diferenca_conjunto(Cs, [], Cs).
+diferenca_conjunto([C | Cs], Ds, Es) :-
+    member(C, Ds),
+    diferenca_conjunto(Cs, Ds, Es).
+diferenca_conjunto([C | Cs], Ds, [C | Es]) :-
+    \+ member(C, Ds),
+    diferenca_conjunto(Cs, Ds, Es).
 
 
 %%%%%%%% Fim dos predicados adicionados
-%%%%%%%% Os testes come�am aqui.
+%%%%%%%% Os testes comecam aqui.
 %%%%%%%% Para executar os testes, use a consulta:   ?- run_tests.
 
 %%%%%%%% Mais informacoes sobre testes podem ser encontradas em:
