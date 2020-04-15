@@ -1,9 +1,21 @@
 %%%%% Insira aqui os seus predicados.
 %%%%% Use quantos predicados auxiliares julgar necessario
 
+
 % Exercício 1
 
+
 % Exercício 2
+esta_contido([], _).
+esta_contido([C|Cs], Ds) :-
+    member(C, Ds),
+    esta_contido(Cs, Ds).
+
+mesmo_conjunto(Cs, Ds) :-
+    length(Cs, L),
+    length(Ds, L),
+    esta_contido(Cs, Ds),
+    esta_contido(Ds, Cs).
 
 % Exercício 3
 uniao_conjunto([], Cs, Cs).
@@ -22,7 +34,6 @@ inter_conjunto([C | Cs], Ds, Es) :-
 inter_conjunto([C | Cs], Ds, [C | Es]) :-
     member(C, Ds),
     inter_conjunto(Cs, Ds, Es).
-
 
 % Exercício 5
 diferenca_conjunto([], _, []).
