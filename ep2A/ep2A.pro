@@ -4,6 +4,17 @@
 
 % Exercício 1
 
+deleta(_, [], []).
+deleta(X, [X | Ys], Zs) :-
+    deleta(X, Ys, Zs),
+    !.
+deleta(X, [Y | Ys], [Y | Zs]) :-
+    deleta(X, Ys, Zs).
+
+lista_para_conjunto([], []).
+lista_para_conjunto([X | Xs], [X | Cs]) :-
+    deleta(X, Xs, Ys),
+    lista_para_conjunto(Ys, Cs).
 
 % Exercício 2
 esta_contido([], _).
