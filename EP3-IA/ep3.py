@@ -13,8 +13,8 @@
   ENTENDO QUE EPS SEM ASSINATURA NAO SERAO CORRIGIDOS E,
   AINDA ASSIM, PODERAO SER PUNIDOS POR DESONESTIDADE ACADEMICA.
 
-  Nome :
-  NUSP :
+  Nome : DANIELA GONZALEZ FAVERO
+  NUSP : 10277443
 
   Referencias: Com excecao das rotinas fornecidas no enunciado
   e em sala de aula, caso voce tenha utilizado alguma referencia,
@@ -87,7 +87,42 @@ class BlackjackMDP(util.MDP):
            don't include that state in the list returned by succAndProbReward.
         """
         # BEGIN_YOUR_CODE
-        raise Exception("Not implemented yet")
+        total, peeked_index, deck = state 
+
+        if deck is None: # estado terminal
+            return []
+
+        if peeked_index != None and action == 'Espiar': # não pode espiar 2x seguidas
+            return []
+
+        if action == 'Sair':
+            return [((total, None, None), 1, total)]
+
+        if action == 'Espiar':
+            n_cards = sum(deck)
+            reachable = []
+            for index in range(len(deck)):
+                if deck[index] > 0:
+                    prob = deck[index]/n_cards
+                    reachable.append(((total, index, deck), prob, -self.custo_espiada))
+            return reachable
+
+        if action == 'Pegar':
+            n_cards = sum(deck)
+            reachable = []
+            for index in range(len(deck)):
+                if deck[index] > 0:
+                    prob = deck[index]/n_cards
+                    new_total = self.valores_cartas[index] + total
+                    if new_total > self.limiar:
+                        new_deck = None
+                    else:
+                        new_deck = deck
+                        new_deck[index] -= 1
+                    reachable.append(((new_total, index, new_deck), prob, 0))
+            return reachable
+        
+        return [] # ação inválida
         # END_YOUR_CODE
 
     def discount(self):
