@@ -87,56 +87,54 @@ class BlackjackMDP(util.MDP):
            don't include that state in the list returned by succAndProbReward.
         """
         # BEGIN_YOUR_CODE
-        print(state)
         total, peeked_index, deck = state 
 
         if action not in self.actions(state) or deck is None: # estado terminal
-            print("deck é none, cabo")
             return []
 
-        n_cards = sum(deck)
-        if action == 'Sair' or n_cards == 0:
-            print("cabo o jogo legal amore, setei o deck pra none", action, n_cards)
+        if action == 'Sair':
             return [((total, None, None), 1, total)]
 
+        n_cards = sum(deck)
         if action == 'Espiar':
-            if peeked_index != None:  # não pode espiar 2x seguidas
-                print("num espia 2x não otário")
+            if peeked_index is not None:  # não pode espiar 2x seguidas
                 return []
             reachable = []
             for index in range(len(deck)):
                 if deck[index] > 0:
                     prob = deck[index]/n_cards
                     reachable.append(((total, index, deck), prob, -self.custo_espiada))
-            print("espiou né seu safado")
             return reachable
 
         if action == 'Pegar':
             if peeked_index is not None: # sabemos qual carta pegaremos
                 new_total = self.valores_cartas[peeked_index] + total
-                if new_total > self.limiar: # faliu
+                reward = 0
+                if n_cards == 1 or new_total > self.limiar: # acabou o jogo
                     new_deck = None
-                    reward = new_total
-                else: 
+                    if new_total <= self.limiar: # não faliu
+                        reward = new_total
+                else: # continua o jogo
                     new_deck = list(deck)
                     new_deck[peeked_index] -= 1
                     new_deck = tuple(new_deck)
-                print("pegou pós espiada", [((new_total, None, new_deck), 1, 0)])
-                return [((new_total, None, new_deck), 1, 0)]
+                return [((new_total, None, new_deck), 1, reward)]
 
             reachable = []
             for index in range(len(deck)): # não sabemos qual carta pegaremos
                 if deck[index] > 0: # se ainda tem cartas com esse valor
                     prob = deck[index]/n_cards
                     new_total = self.valores_cartas[index] + total
-                    if new_total > self.limiar: # faliu
+                    reward = 0
+                    if n_cards == 1 or new_total > self.limiar: # acabou o jogo
                         new_deck = None
-                    else:
+                        if new_total <= self.limiar: # não faliu
+                            reward = new_total
+                    else: # continua o jogo
                         new_deck = list(deck)
                         new_deck[index] -= 1
                         new_deck = tuple(new_deck)
-                    reachable.append(((new_total, None, new_deck), prob, 0))
-            print("pegou", reachable)
+                    reachable.append(((new_total, None, new_deck), prob, reward))
             return reachable
         
         return [] # ação inválida
