@@ -138,6 +138,7 @@ class BlackjackMDP(util.MDP):
             return reachable
         
         return [] # ação inválida
+
         # END_YOUR_CODE
 
     def discount(self):
@@ -180,7 +181,16 @@ class ValueIteration(util.MDPAlgorithm):
         V = defaultdict(float)  # state -> value of state
         # Implement the main loop of Asynchronous Value Iteration Here:
         # BEGIN_YOUR_CODE
-        raise Exception("Not implemented yet")
+
+        V = {state:0.0 for state in mdp.states} # V <- 0
+        delta = float("inf")
+        while delta >= epsilon:
+            delta = 0
+            for state in mdp.states:
+                v = V[state]
+                V[state] = max(computeQ(mdp, V, state, action) for action in mdp.actions(state))
+                delta = max(abs(v - V[state]), delta)
+
         # END_YOUR_CODE
 
         # Extract the optimal policy now
@@ -201,7 +211,9 @@ def geraMDPxereta():
     optimal action for at least 10% of the states.
     """
     # BEGIN_YOUR_CODE
-    raise Exception("Not implemented yet")
+    
+    return BlackjackMDP(valores_cartas=[1, 5, 19], multiplicidade=10, limiar=20, custo_espiada=1)
+
     # END_YOUR_CODE
 
 
