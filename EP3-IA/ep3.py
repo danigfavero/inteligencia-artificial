@@ -273,7 +273,16 @@ class QLearningAlgorithm(util.RLAlgorithm):
          HINT: Remember to check if s is a terminal state and s' None.
         """
         # BEGIN_YOUR_CODE
-        raise Exception("Not implemented yet")
+        
+        Q = self.getQ(state, action)
+        V = self.getQ(newState, action)
+        alpha = self.getStepSize()
+        gamma = self.discount
+        
+        for k in self.featureExtractor(state, action):
+            f = self.featureExtractor(state, action)[k]
+            self.weights[k] += alpha * (reward + gamma * V - Q) * f
+
         # END_YOUR_CODE
 
 def identityFeatureExtractor(state, action):
