@@ -279,8 +279,8 @@ class QLearningAlgorithm(util.RLAlgorithm):
         alpha = self.getStepSize()
         gamma = self.discount
         
-        for k in self.featureExtractor(state, action):
-            f = self.featureExtractor(state, action)[k]
+        for pair in self.featureExtractor(state, action):
+            k, f = pair
             self.weights[k] += alpha * (reward + gamma * V - Q) * f
 
         # END_YOUR_CODE
