@@ -4,17 +4,18 @@ dados brutos, necessario para leva-los a um estado adequado para
 o treinamento pelo modelo definido em model.py.
 '''
 
-
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-def load_data(data_path='data/weatherAUS.csv'):
-    """Funcaoo que importa dados de um aqruivo csv, usando pandas"""
-    raw_data = pd.read_csv(data_path)
+def load_data(data_path):
+    """Funcao que importa dados de um arquivo csv, usando pandas"""
+    dirname = os.path.dirname(__file__)
+    filename = os.path.join(dirname, data_path)
+    raw_data = pd.read_csv(filename)
     return raw_data
-
 
 def pre_processing(raw_data):
     """Funcao que filtra e limpa os dados meteorologicos para o treinamento"""
@@ -92,7 +93,35 @@ def visualize_data(data):
     return
 
 
-if __name__ == "__main__":
+def main():
+    
     raw_data = load_data()
     processed_data = pre_processing(raw_data)
     visualize_data(processed_data)
+
+
+if __name__ == "__main__":
+    
+    dataframes = []
+    for arquivo in ['einstein_e.csv', 'fleury_e.csv', 'hsl_e.csv']:
+        dataframes.append(load_data('../dados/' + arquivo))
+    exames_bruto = set()
+    for arquivo in dataframes:
+        for exame in arquivo['de_exame']:
+            exames_bruto.add(exame)
+    with open('exames.txt', 'w') as arquivo:
+        for exame in exames_bruto:
+            arquivo.write(exame + "\n")
+    
+    # TODO acho que deveria estar em outro arquivo python, dado que já passamos pela filtragem e geramos o arquivo novo
+    exames_selecionados = set()
+    with open('exames_selecionados.txt', 'r') as arquivo:
+        for linha in arquivo:
+            exames_selecionados.add(linha if linha[len(linha) - 1] != '\n' else linha[:len(linha) - 1])
+
+    analitos_bruto = set()
+    for dataframe in dataframes:
+        for i in range(0, len(dataframe)):
+            if dataframe['de_exame'][i] in exames_selecionados:
+                analitos_bruto.add(dataframe['de_analito'][i])
+                print(dataframe['de_exame'][i] + ' VACA ' + dataframe['de_analito'][i])
