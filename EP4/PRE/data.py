@@ -17,6 +17,38 @@ def load_data(data_path):
     raw_data = pd.read_csv(filename)
     return raw_data
 
+def filter_inputs():
+    """"Funcao que gera arquivos com as entradas das colunas 'de_exame' e
+    'de_analito'"""
+
+    # Filtra a coluna 'de_exame'
+    dataframes = []
+    for arquivo in ['einstein_e.csv', 'fleury_e.csv', 'hsl_e.csv']:
+        dataframes.append(load_data('../dados/' + arquivo))
+    exames_bruto = set()
+    for arquivo in dataframes:
+        for exame in arquivo['de_exame']:
+            exames_bruto.add(exame)
+    with open('exames.txt', 'w') as arquivo:
+        for exame in exames_bruto:
+            arquivo.write(exame + "\n")
+
+    # Filtra a coluna 'de_analito'
+    exames_selecionados = set()
+    with open('exames_selecionados.txt', 'r') as arquivo:
+        for linha in arquivo:
+            ultimo_char = len(linha) - 1
+            exames_selecionados.add(linha if linha[ultimo_char] != '\n' else linha[:ultimo_char])
+
+    analitos_bruto = set()
+    for dataframe in dataframes:
+        for i in range(0, len(dataframe)):
+            if dataframe['de_exame'][i] in exames_selecionados:
+                analitos_bruto.add(dataframe['de_analito'][i])
+    with open('analitos.txt', 'w') as arquivo:
+        for analito in analitos_bruto:
+            arquivo.write(analito + "\n")
+
 def pre_processing(raw_data):
     """Funcao que filtra e limpa os dados meteorologicos para o treinamento"""
 
@@ -94,34 +126,10 @@ def visualize_data(data):
 
 
 def main():
-    
     raw_data = load_data()
     processed_data = pre_processing(raw_data)
     visualize_data(processed_data)
 
 
 if __name__ == "__main__":
-    
-    dataframes = []
-    for arquivo in ['einstein_e.csv', 'fleury_e.csv', 'hsl_e.csv']:
-        dataframes.append(load_data('../dados/' + arquivo))
-    exames_bruto = set()
-    for arquivo in dataframes:
-        for exame in arquivo['de_exame']:
-            exames_bruto.add(exame)
-    with open('exames.txt', 'w') as arquivo:
-        for exame in exames_bruto:
-            arquivo.write(exame + "\n")
-    
-    # TODO acho que deveria estar em outro arquivo python, dado que já passamos pela filtragem e geramos o arquivo novo
-    exames_selecionados = set()
-    with open('exames_selecionados.txt', 'r') as arquivo:
-        for linha in arquivo:
-            exames_selecionados.add(linha if linha[len(linha) - 1] != '\n' else linha[:len(linha) - 1])
-
-    analitos_bruto = set()
-    for dataframe in dataframes:
-        for i in range(0, len(dataframe)):
-            if dataframe['de_exame'][i] in exames_selecionados:
-                analitos_bruto.add(dataframe['de_analito'][i])
-                print(dataframe['de_exame'][i] + ' VACA ' + dataframe['de_analito'][i])
+    filter_inputs()

@@ -20,7 +20,9 @@ objetivos do trabalho - 1 parágrafo
 ## 3. Metodologia
 
 ### Pré-processamento dos dados
-lorem ipsum
+A primeira coisa que fizemos foi descobrir quais eram as possíveis formas de se preencher a coluna `de_exame` e `de_analito`. Para isso, fizemos a função `filter_inputs()` em `data.py` para gerar os arquivos `exames.txt` e `analitos.txt`. Depois verificamos (na mão) os exames que faziam sentido para a análise de pacientes com Covid-19 - gerando `exames_selecionados.txt` e `analitos_selecionados.txt`. Alguns dos exames que apresentam relação com a doença observada são: PCR, IgG, IgM, produção de anticorpos em geral, Alfa-1 Glicoproteína Ácida (que detecta processos inflamatórios), ferro/ferritina/gasometria venosa (que detectam quão eficiente o pulmão está sendo em oxigenar o corpo), Hematócrito, Dímero D, Tempo de Protrombina, Fibrinogênio e Contagem de Plaquetas.¹  
+(1. Fontes: <https://newslab.com.br/alteracoes-laboratoriais-mais-frequentes-em-pacientes-com-covid-19>,
+<https://www.thelancet.com/journals/lanhae/article/PIIS2352-3026(20)30217-9/fulltext>)
 
 ### Arquitetura da rede neural
 lorem ipsum
