@@ -1,24 +1,24 @@
 Sorologia SARS-CoV-2/COVID19 IgG/IgM
 Dosagem de Ferritina
-COVID-19-Sorologia IgM e IgG por quimiluminescÃªncia: soro
+COVID-19-Sorologia IgM e IgG por quimiluminescência: soro
 FERRITINA: soro
-Sorologia - CoronavÃ­rus: IgA
+Sorologia - Coronaví­rus: IgA
 Sorologia SARS-CoV-2/COVID19 IgG/IgM
 ALFA-1 GLICOPROTEINA ACIDA: soro
 IgA: IMUNOGLOBULINA: soro
 Alfa 1 Glicoproteina Acida: Dos
 FERRO: soro
-SATURAÇÃO DA TRANSFERRINA: soro
+SATURAÇíO DA TRANSFERRINA: soro
 Painel Molecular Patogenos Respiratorios
 Diferencial Manual
 HEMOSSEDIMENTACAO: sangue total
 D. Dimeros(Dimeros De Fibrina)
-Teste rÃ¡pido Coronavirus COVID19 IgG/IgM
+Teste rápido Coronavirus COVID19 IgG/IgM
 COVID19: ANTICORPOS IgM: soro
-Dosagem de HematÃ³crito
+Dosagem de Hematócrito
 IgM: IMUNOGLOBULINA: soro
-DetecÃ§Ã£o de vÃ­rus respiratÃ³rio: por PCR: VÃ¡rios Materiais
-PCR em tempo real para detecÃ§Ã£o de Coron
+Detecção de ví­rus respiratório: por PCR: Vários Materiais
+PCR em tempo real para detecção de Coron
 Contagem de Plaquetas
 Cultura Quantitativa (Sec. Traqueal E Lavado)
 COVID19: ANTICORPOS IgA: soro
@@ -28,23 +28,23 @@ Tempo E Ativid. Protrombina (Tp)
 Hemograma
 Hemograma Contagem Auto
 Plaquetas: contagem: sangue total
-Dosagem de D-DÃ­mero
+Dosagem de D-Dí­mero
 HEMOGRAMA: sangue total
 COVID19: ANTICORPOS IgG: soro
-Sorologia - CoronavÃ­rus: IgG
+Sorologia - Coronaví­rus: IgG
 Hemoglobina
 Gasometria Venosa
 Ferritina: Dosagem
-Pcr convencional P/ Mycobacterium Tuberculosis: vÃ¡rios materiais
-HemossedimentaÃ§Ã£o(Vhs) 1.Hora
+Pcr convencional P/ Mycobacterium Tuberculosis: vários materiais
+Hemossedimentação(Vhs) 1.Hora
 Plaquetas: contagem especial: sangue total
 Protrombina: Tempo de: plasma
 Hemograma: sangue total
 Dosagem de Hemoglobina
-COVID-19-PCR para SARS-COV-2: VÃ¡rios Materiais (Fleury)
+COVID-19-PCR para SARS-COV-2: Vários Materiais (Fleury)
 SARS-COV-2: ANTICORPOS IgG: soro
 IgG: IMUNOGLOBULINA: soro
-FibrinogÃªnio: Dosagem Do
+Fibrinogênio: Dosagem Do
 TEMPO DE PROTROMBINA: plasma
-NOVO CORONAVÍRUS 2019 (SARS-CoV-2): DETECÇÃO POR PCR
+NOVO CORONAVÍRUS 2019 (SARS-CoV-2): DETECÇíO POR PCR
 Saturacao da Transferrina: soro

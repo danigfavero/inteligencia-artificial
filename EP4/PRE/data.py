@@ -62,13 +62,12 @@ def build_dataframe():
     raw_data = pd.concat(dataframes, ignore_index=True)
     exames, analito = filter_inputs(dataframes)
     
-    to_remove = []
+    to_keep = []
     for i in range(0, len(raw_data)):
-        print(raw_data['de_exame'][i])
-        if raw_data['de_exame'][i] in exames or raw_data['de_analito'][i] not in analito:
-            to_remove.append(i)
+        if raw_data['de_exame'][i] in exames or raw_data['de_analito'][i] in analito:
+            to_keep.append(i)
 
-    raw_data.iloc[to_remove]
+    raw_data = raw_data.loc[to_keep]
 
     return raw_data
 
@@ -76,10 +75,20 @@ def pre_processing(raw_data):
     """Funcao que filtra e limpa os dados medicos para o treinamento"""
 
     # Seleciona as variaveis que serao usadas como features:
-    cols = ['id_paciente', 'dt_coleta', 'de_exame', 'de_analito',
-            'de_resultado','de_valor_referencia']
+    raw_data['exame'] = raw_data[['de_exame', 'de_analito']].apply(lambda x: ' - '.join(x), axis=1)
+    cols = ['id_paciente', 'dt_coleta', 'exame', 'de_resultado', 'de_valor_referencia']
     processed_data = raw_data[cols]
     processed_data.to_csv('final_data.csv')
+
+    # FIXME: REFATORAR
+    exames = set()
+
+    for exame in processed_data['exame']:
+        exames.add(exame)
+    with open('exames_geral.txt', 'w') as arquivo:
+        for exame in exames:
+            arquivo.write(exame + "\n")
+
 
     # Remove todas as entradas dos dados que nao possuem
     # todas as features  instanciadas:
