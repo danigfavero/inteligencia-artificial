@@ -1,152 +1,152 @@
-Siderofilina
-Covid 19: Material
-Ferro - Capac Total ligação
-CoronavÃ­rus (2019-nCoV)
-Covid 19: Anticorpos IgG: Quimiolumin.-Ãndice
-PlasmÃ³citos (%)
-Segmentados
-Eosinófilos
-LinfÃ³citos #
-LeucÃ³citos
-Bastonetes
-TP: Atividade
-EosinÃ³filos (%)
-Covid 19: Antic IgA/IgG: Elisa - observação
-pH (gasometria venosa)
-Fibrinogenio
-Covid 19: Anticorpos IgM: QuimioluminescÃªncia
-CoronavÃ­rusOC43
-RDW
-Hemoglobina
-Dimeros D: quant
-Covid 19: Anticorpos IgM: Quimiolumin.-Ãndice
-Bastonetes (%)
-PromielÃ³citos #
-Neutrófilos
-COVID IgG Interp
-LinfÃ³citos (%)
-Covid 19: Detecção por PCR
-IgM: Imunoglobulina
-RhinovÃ­rus/EnterovÃ­rus
-pCO2 (gasometria venosa)
-Basófilos
-IgM: COVID19
-Parainfluenza 3
-TP/INR
-IgG: COVID19
-Neutrófilos (%)
-FraÃ§Ã£o Imatura de Plaquetas
-BasÃ³filos #
-Bordetella pertussis
-NeutrÃ³filos  #
-BE venoso
-Covid 19: Anticorpos IgA: Elisa - Índice
-NeutrÃ³filos (%)
-pH venoso
-NeutrÃ³filos
-MielÃ³citos (%)
-pO2 (gasometria venosa)
-LinfÃ³citos
-VÃ­rus Sincicial RespiratÃ³rio
-COVID IgM Interp
-Mycoplasma pneumoniae
-Hematócrito
-Ferritina
-PlasmÃ³ticos
-CHCM
-Bastonestes
-Morfologia: Série Branca
-Mieloblastos
-PromielÃ³citos (%)
-CO2 Total (gasometria venosa)
-Material (2019-nCoV)
-Covid 19: Anticorpos IgG: Quimiolumin.-Índice
-Ferro Grau SaturaÃ§Ã£o
-HCM
-Parainfluenza 2
-Linfócitos
-MetapneumovÃ­rus
-Morfologia: Série Vermelha
-BE (gasometria venosa)
-Morfologia: SB
-BasÃ³filos (%)
-Monócitos
-LeucÃ³citos #
-Leucócitos
-BasÃ³filos
-Chlamydophila pneumoniae
-Parainfluenza 1
-IgG: Imunoglobulina
-Concentração de Hemoglobina Corpuscular
-Influenza  A
-CoronavÃ­rusHKU1
-Eosinófilos (%)
-Adenovirus
-Volume MÃ©dio PlaquetÃ¡rio
-Linfócitos (%)
-VCM
-EosinÃ³filos  #
-Covid 19: Anticorpos IgG
-MonÃ³citos
-Plaquetas
 Volume plaquetÃ¡rio mÃ©dio
-HemÃ¡cias
-CoronavÃ­rusNL63
-MonÃ³citos #
-COVID19 IgG: teste rÃ¡pido
-CoronavÃ­rus229E
-Monócitos (%)
-Inf A H1N1 2009
-COVID19 IgM: teste rÃ¡pido
-Covid 19: Anticorpos IgM: Quimioluminescência
-Ferro
-Volume plaquetário médio
-Ferro - Grau de Saturação
-Sat O2 venoso
-Covid 19: Anticorpos IgA
-Eritrócitos
-Tempo de Protrombina
-Parainfluenza 4
-Mieloblastos #
-MetamielÃ³citos (%)
-MetamielÃ³citos #
-Covid 19: Anticorpos IgG: Quimioluminescência
-Covid 19: Anticorpos IgM: Quimiolumin.-Índice
-Covid 19: Anticorpos IgG: Elisa
-EosinÃ³filos
-Cultura Quantitativa - Parcial
-MielÃ³citos #
-Fio2 (gasometria venosa)
-Hemoglobina Corpuscular Média
-VÃ­rus RespiratÃ³rios - DetecÃ§Ã£o molecular
-D-DÃ­mero
-Covid 19: Anticorpos IgG: Ã­ndice
-Segmentados (%)
-MielÃ³citos
-EritrÃ³citos
+RDW
 pCO2 venoso
-Mycobacterium tuberculosis PCR
-Cultura Quantitativa
-Covid 19: Anticorpos IgG: Elisa - Índice
-Morfologia: SVE
-RNI
-IgA: Imunoglobulina
+Bastonetes (%)
 pO2 venoso
-Covid 19: Anticorpos IgA: Ã­ndice
-PromielÃ³citos
-Basófilos (%)
-Covid 19: Antic IgA/IgG: Elisa-Interpretação
-Resultado COVID-19:
-MetamielÃ³citos
-HCO3 (gasometria venosa)
-MonÃ³citos (%)
-HCO3 venoso
-HematÃ³crito
-SaturaÃ§Ã£o da Hb (gasometria venosa)
-VHS
-Influenza  B
+Bastonetes
 Covid 19: Anticorpos IgG: QuimioluminescÃªncia
-Covid 19: Anticorpos IgA: Elisa
+Covid 19: Anticorpos IgG: Quimioluminescência
+COVID19 IgM: teste rÃ¡pido
+MielÃ³citos #
+PromielÃ³citos #
+BasÃ³filos (%)
+Basófilos
+Parainfluenza 4
+pH venoso
+Morfologia: SVE
+SaturaÃ§Ã£o da Hb (gasometria venosa)
+Siderofilina
+MetamielÃ³citos #
+MonÃ³citos
+Hematócrito
+Mycobacterium tuberculosis PCR
+LeucÃ³citos
+Resultado COVID-19:
+Dimeros D: quant
+RhinovÃ­rus/EnterovÃ­rus
+LeucÃ³citos #
+Inf A H1N1 2009
+EosinÃ³filos (%)
+pH (gasometria venosa)
+CoronavÃ­rusNL63
+Cultura Quantitativa
+Mieloblastos
+Fio2 (gasometria venosa)
+Chlamydophila pneumoniae
 Bastonetes #
-Alfa-1 Glicopr Acida
+Bastonestes
+Covid 19: Antic IgA/IgG: Elisa - observação
+Parainfluenza 3
+BasÃ³filos #
+Morfologia: Série Vermelha
+Volume plaquetário médio
+IgG: Imunoglobulina
+Covid 19: Detecção por PCR
+Material (2019-nCoV)
+Ferro Grau SaturaÃ§Ã£o
+COVID IgM Interp
+CHCM
+Covid 19: Anticorpos IgG: Ã­ndice
+Hemoglobina
+Eosinófilos
+Sat O2 venoso
+Mycoplasma pneumoniae
+LinfÃ³citos #
+pO2 (gasometria venosa)
+Eritrócitos
+Parainfluenza 1
+EosinÃ³filos  #
 Segmentados #
+HCM
+EosinÃ³filos
+CoronavÃ­rus229E
+Morfologia: Série Branca
+Linfócitos
+VÃ­rus Sincicial RespiratÃ³rio
+MetamielÃ³citos (%)
+VÃ­rus RespiratÃ³rios - DetecÃ§Ã£o molecular
+MetapneumovÃ­rus
+Ferro
+Covid 19: Anticorpos IgG
+CoronavÃ­rusOC43
+Covid 19: Anticorpos IgA: Elisa
+MonÃ³citos (%)
+Alfa-1 Glicopr Acida
+CoronavÃ­rus (2019-nCoV)
+MonÃ³citos #
+BE (gasometria venosa)
+Plaquetas
+CoronavÃ­rusHKU1
+Covid 19: Anticorpos IgA: Elisa - Índice
+TP/INR
+Covid 19: Anticorpos IgM: Quimioluminescência
+IgG: COVID19
+BasÃ³filos
+Monócitos (%)
+Linfócitos (%)
+Covid 19: Anticorpos IgM: Quimiolumin.-Índice
+HematÃ³crito
+Neutrófilos (%)
+PlasmÃ³citos (%)
+Morfologia: SB
+Covid 19: Anticorpos IgG: Elisa - Índice
+NeutrÃ³filos  #
+MetamielÃ³citos
+Cultura Quantitativa - Parcial
+MielÃ³citos (%)
+IgM: COVID19
+Leucócitos
+Segmentados
+Hemoglobina Corpuscular Média
+MielÃ³citos
+PlasmÃ³ticos
+HemÃ¡cias
+CO2 Total (gasometria venosa)
+Ferro - Capac Total ligação
+Covid 19: Anticorpos IgG: Quimiolumin.-Ãndice
+Monócitos
+Covid 19: Material
+IgA: Imunoglobulina
+TP: Atividade
+Ferro - Grau de Saturação
+Covid 19: Anticorpos IgM: QuimioluminescÃªncia
+Neutrófilos
+Concentração de Hemoglobina Corpuscular
+PromielÃ³citos
+Ferritina
+Basófilos (%)
+FraÃ§Ã£o Imatura de Plaquetas
+IgM: Imunoglobulina
+PromielÃ³citos (%)
+Covid 19: Anticorpos IgM: Quimiolumin.-Ãndice
+Covid 19: Anticorpos IgA: Ã­ndice
+Adenovirus
+RNI
+Influenza  B
+COVID IgG Interp
+Mieloblastos #
+COVID19 IgG: teste rÃ¡pido
+Volume MÃ©dio PlaquetÃ¡rio
+Covid 19: Antic IgA/IgG: Elisa-Interpretação
+Covid 19: Anticorpos IgG: Quimiolumin.-Índice
+Covid 19: Anticorpos IgG: Elisa
+Influenza  A
+HCO3 (gasometria venosa)
+HCO3 venoso
+Bordetella pertussis
+BE venoso
+pCO2 (gasometria venosa)
+LinfÃ³citos (%)
+NeutrÃ³filos (%)
+Segmentados (%)
+NeutrÃ³filos
+D-DÃ­mero
+LinfÃ³citos
+EritrÃ³citos
+VCM
+Fibrinogenio
+Covid 19: Anticorpos IgA
+Tempo de Protrombina
+Eosinófilos (%)
+Parainfluenza 2
+VHS

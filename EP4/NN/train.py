@@ -6,7 +6,7 @@ Esse programa implementa a funcao principal de treinamento, funcoes de
 preparacao dos dados ao trainamento e funcoes auxiliares, utilizadas no
 processo de treinamento.
 '''
-
+        
 
 import torch
 from sklearn.model_selection import train_test_split
@@ -32,7 +32,7 @@ def split_data(pp_data, val_size=0.2, r_seed=RANDOM_SEED):
     """Funcao que realiza a adequacao final dos dados para o uso pela rede"""
     # Separa as features da variavel-alvo:
     x = pp_data[['Rainfall', 'Humidity3pm', 'RainToday', 'Pressure9am']]
-    y = pp_data[['RainTomorrow']]
+    y = pp_data[['PCR', 'IgG', 'IgM']]
 
     # Separa os conjutos de validacao e treinamento:
     x_train, x_val, y_train, y_val = train_test_split(x, y, test_size=val_size,

@@ -17,14 +17,11 @@ def load_data(data_path):
     raw_data = pd.read_csv(filename)
     return raw_data
 
-def filter_inputs():
+def filter_inputs(dataframes):
     """"Funcao que gera arquivos com as entradas das colunas 'de_exame' e
     'de_analito'"""
 
     # Filtra a coluna 'de_exame'
-    dataframes = []
-    for arquivo in ['einstein_e.csv', 'fleury_e.csv', 'hsl_e.csv']:
-        dataframes.append(load_data('../dados/' + arquivo))
     exames_bruto = set()
     for arquivo in dataframes:
         for exame in arquivo['de_exame']:
@@ -49,17 +46,40 @@ def filter_inputs():
         for analito in analitos_bruto:
             arquivo.write(analito + "\n")
 
+    analitos_selecionados = set()
+    with open('analitos_selecionados.txt', 'r') as arquivo:
+        for linha in arquivo:
+            ultimo_char = len(linha) - 1
+            analitos_selecionados.add(linha if linha[ultimo_char] != '\n' else linha[:ultimo_char])
+
+    return exames_selecionados, analitos_selecionados
+
+def build_dataframe():
+    
+    dataframes = []
+    for arquivo in ['einstein_e.csv', 'fleury_e.csv', 'hsl_e.csv']:
+        dataframes.append(load_data('../dados/' + arquivo))
+    raw_data = pd.concat(dataframes, ignore_index=True)
+    exames, analito = filter_inputs(dataframes)
+    
+    to_remove = []
+    for i in range(0, len(raw_data)):
+        print(raw_data['de_exame'][i])
+        if raw_data['de_exame'][i] in exames or raw_data['de_analito'][i] not in analito:
+            to_remove.append(i)
+
+    raw_data.iloc[to_remove]
+
+    return raw_data
+
 def pre_processing(raw_data):
-    """Funcao que filtra e limpa os dados meteorologicos para o treinamento"""
+    """Funcao que filtra e limpa os dados medicos para o treinamento"""
 
     # Seleciona as variaveis que serao usadas como features:
-    cols = ['Rainfall', 'Humidity3pm', 'Pressure9am',
-            'RainToday', 'RainTomorrow']
+    cols = ['id_paciente', 'dt_coleta', 'de_exame', 'de_analito',
+            'de_resultado','de_valor_referencia']
     processed_data = raw_data[cols]
-
-    # Adequa o formato das variaveis RainToday e RainTomorrow:
-    processed_data['RainToday'].replace({'No': 0, 'Yes': 1}, inplace=True)
-    processed_data['RainTomorrow'].replace({'No': 0, 'Yes': 1}, inplace=True)
+    processed_data.to_csv('final_data.csv')
 
     # Remove todas as entradas dos dados que nao possuem
     # todas as features  instanciadas:
@@ -132,4 +152,4 @@ def main():
 
 
 if __name__ == "__main__":
-    filter_inputs()
+    pre_processing(build_dataframe())

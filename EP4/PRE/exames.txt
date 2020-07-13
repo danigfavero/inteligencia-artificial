@@ -1,322 +1,322 @@
-CREATINOQUINASE TOTAL (CK): soro
-Dosagem de Glicose
-Dosagem de UrÃ©ia
-TOXOPLASMA: ANTICORPOS IgM: soro
-Tireostimulante (Tsh): HormÃ´nio (Rie)
-HORMONIO TIROESTIMULANTE (TSH): soro
-CÃ¡lcio IonizÃ¡vel
-Teste rÃ¡pido Coronavirus COVID19 IgG/IgM
-PARATORMONIO (PTH): MOLECULA INTACTA: soro
-APOLIPOPROTEINA A-1: soro
-Colesterol - FraÃ§Ã£o VLDL
-Vitamina B-12: Dosagem
-Dosagem de SÃ³dio
-FOSFORO INORGANICO: soro
-UREIA: soro
-Dengue: Anticorpo IgG: soro
-Dengue: antÃ­geno NS1: soro: teste rÃ¡pido
-FERRO: soro
-Cloro - Kit Urg
-Hemocultura para aerÃ³bios: por maldi-tof: vÃ¡rios materiais
-SUBUNIDADE B LIVRE DA GONADOTROFINA CORIÔNICA HUMANA: soro
-TESTOSTERONA: soro
-Colesterol Total e FraÃ§Ãµes
-Gama - Glutamil Transferase  (Ggt)
-TIROGLOBULINA: soro
-FOSFATASE ALCALINA (ALP): soro
-TESTE TUBERCULINICO COM PPD
-Transaminase PirÃºvica ( Tgp )
-Peptideo C
-TriglicerÃ­dios (Tg )
-Plaquetas: contagem: sangue total
-VDRL
-Contagem dos ReticulÃ³citos
-PESQUISA TRICOMONAS
-Lipase (urgÃªncia)
-VLDL-COLESTEROL: soro
-TTPA
-HEPATITE B: ANTICORPO CONTRA ANTIGENO DE SUPERFICIE: soro (Anti-HBs)
-Colesterol Total
-FibrinogÃªnio: Dosagem Do
-ANTIGENO PROSTATICO ESPECIFICO(PSA): soro
-CITOMEGALOVIRUS: ANTICORPOS IgM: soro
-PCR em tempo real para detecÃ§Ã£o de Coron
-Saturacao da Transferrina: soro
-ProteÃ­na C Reativa: por imunoturbidimetria: soro
-ANTICORPO CONTRA O ANTIGENO DO CORE DO VIRUS DA HEPATITE B: soro
-Testosterona especial: soro
-ALFA-FETOPROTEINA: soro
-Hepatite B/Anti-Hbe: Sorologia
-NOVO CORONAVÍRUS 2019 (SARS-CoV-2): DETECÇÃO POR PCR
-Dosagem de Fosfatase Alcalina
-ACIDO ASCORBICO: plasma
-Bilirrubinas Total E Fracoes
-Bilirrubinas: soro
-DETERMINAÇÃO DO SEXO FETAL PELA ANÁLISE DO SANGUE MATERNO
-HemossedimentaÃ§Ã£o(Vhs) 1.Hora
-ESTRADIOL: soro
-PROTEINA TOTAL: soro
-TEMPO DE TROMBOPLASTINA PARCIAL ATIVADA: plasma
-Tsh - Hormonio Tiroestimulante
-Painel Molecular Patogenos Respiratorios
-Creatinofosfoquinase Cpk-Ck
-Urina: Cultura - Jato MÃ©dio
-TIROXINA (T4) LIVRE: soro
-SODIO: soro
-CALCIO: soro
-RUBEOLA: ANTICORPOS IgG: soro
-URINA TIPO I - JATO MEDIO
-CitomegalovÃ­rus (CMV): Sorologia IgG
-Endomisio: Anticorpo Anti (IgA)
-CREATININA: soro
-CitomegalovÃ­rus (CMV): Sorologia IgM
-ANTICORPOS ANTI-TIROGLOBULINA: soro
-LIPASE: soro
-Dosagem de CÃ¡lcio IÃ´nico
-HEMOSSEDIMENTACAO: sangue total
-Dosagem de TGP
-ProteÃ­nas Totais e FraÃ§Ãµes - PTF
-Dosagem de Lipase
-FÃ³sforo
-25 HIDROXI-VITAMINA D: soro
-Tempo Tromb.Parcial Ativada
-FIBRINOGENIO: plasma
-ANTICORPOS TOTAIS CONTRA O VIRUS DA HEPATITE A (Anti-VHA Total)
-AntÃ­geno CarcinoembriogÃªnico (CEA)
-Sorologia SARS-CoV-2/COVID19 IgG/IgM
-APOLIPOPROTEINA B: soro
-ANTICORPOS ANTI-VIRUS DA HEPATITE C (Anti-HCV): soro
-CÃ¡lcio Total
-CA 19-9
-T3 - Tri Iodotironina
-Gonadotrofina CoriÃ´nica (B - Hcg) (Rie Ou Eie)
-GAMA GLUTAMIL TRANSFERASE (GAMA-GT): soro
+Hepatite A (Hav-Vha).Sorol.Igm
+SÃ³dio: Soro
+Hemocultura para anaerÃ³bios: por maldi-tof: vÃ¡rios materiais
+TP POCT
+CÃ¡lcio Ionizado
+Contagem de Plaquetas
+HEMOGRAMA: sangue total
 Insulina
-Magnesio
-CÃ¡lcio IonizÃ¡vel - Kit Urg
-Dengue: Anticorpo IgM: soro
-Hemograma Contagem Auto
-Pesquisa RÃ¡pida para Influenza A e B
-Pesquisa de Estreptococos do Grupo A
-PotÃ¡ssio
-Plaquetas: contagem especial: sangue total
-PESQUISA DO PAPILOMAVÍRUS HUMANO (HPV) POR TÉCNICA MOLECULAR
-Hemograma com Plaquetas
-Dosagem de D-DÃ­mero
-LDL-COLESTEROL: soro
-DIHIDROTESTOSTERONA (DHT): soro
-Amilase
-Dosagem de Insulina
-Creatinina: soro
-Dosagem de TGO
-GONADOTROFINA CORIONICA HUMANA (HCG): soro
-COVID19: ANTICORPOS IgG: soro
-Dosagem de Hemoglobina
-COVID19: ANTICORPOS IgM: soro
-Sorologia Para Sifilis Fta/Abs
-Prolactina
-SÃ³dio
-FATOR REUMATOIDE: soro
-SULFATO DE DEHIDROEPIANDROSTERONA (DHEA-S): soro
-Bk (MicobactÃ©rias): Cultura
+Gasometria Venosa
 Desidrogenase LÃ¡tica  ( LDH )
-Calculo da Estimativa da Taxa: de Filtracao Glomular: soro
-ANTICORPOS DA CLASSE IgA ANTI-TRANSGLUTAMINASE TECIDUAL: soro
-PROGESTERONA: soro
+DETERMINAÇÃO DO SEXO FETAL PELA ANÁLISE DO SANGUE MATERNO
+ALBUMINA: soro
+Proteinas: totais e fraÃ§Ãµes: soro
+PotÃ¡ssio
+IgM: IMUNOGLOBULINA: soro
+TIROPEROXIDASE: ANTICORPOS: SORO
+Hemograma Contagem Auto
+Colesterol Total
+VITAMINA A (retinol): soro
+FERRITINA: soro
+Tgp
+DEHIDROEPIANDROSTERONA: soro
+ALFA-FETOPROTEINA: soro
+CitomegalovÃ­rus (CMV): Sorologia IgM
+Dosagem de MagnÃ©sio
 HEMOGLOBINA GLICADA (A1C): sangue total
-DetecÃ§Ã£o de vÃ­rus respiratÃ³rio: por PCR: VÃ¡rios Materiais
-PROLACTINA (PRL): soro
+ZINCO: plasma
+Colesterol Total - URG
+Bacilos Gram-Negativos Resistentes a CarbapenÃªmicos: Cultura: VÃ¡rios Materiais
+Dosagem de CPK
+CALCIO: soro
+Ferritina: Dosagem
+Pcr convencional P/ Mycobacterium Tuberculosis: vÃ¡rios materiais
+T3 Livre
+Dosagem de TGO
+ALBUMINURIA: amostra isolada
+GLOBULINA LIGADORA DE HORMONIOS SEXUAIS(SHBG): soro
+Amilase: soro
+Hepat.B Anti-Hbc(Hbv)Sorol.Igg
+COVID19: ANTICORPOS IgG: soro
+Plaquetas: contagem especial: sangue total
+IGE ESPECIFICO: F77 - BETA-LACTOGLOBULINA: soro
+Ãcido Ãrico: soro
+Testosterona Livre
+ProteÃ­nas Totais e FraÃ§Ãµes - PTF
+CREATININA: soro
+Dosagem de Fosfatase Alcalina
+Clostridium Difficile: pesquisa do DNA: fezes (PCR em tempo Real)
+Glicemia de Jejum
+SATURAÇÃO DA TRANSFERRINA: soro
+SUBUNIDADE B LIVRE DA GONADOTROFINA CORIÔNICA HUMANA: soro
+Hepatite B/Anti-Hbe: Sorologia
+Vancomicina: Dosagem
+SIFILIS: ANTICORPOS TOTAIS ESPECIFICOS ANTI-T.PALLIDUM: soro
+PESQUISA DO PAPILOMAVÍRUS HUMANO (HPV) POR TÉCNICA MOLECULAR
+Grupo Sanguineo Abo
+Albumina
+CÃ¡lcio: soro
+ESTRONA (E1): soro
+Tireostimulante (Tsh): HormÃ´nio (Rie)
+UrÃ©ia: soro
+Transglutaminase: Tecidual Igg: Soro
+Hemoglobina Glicada
+CÃ¡lcio Total
+FERRO: soro
+ANTICORPOS ANTI-PEROXIDASE TIROIDIANA: soro
+TOXOPLASMA: ANTICORPOS IgG: soro
+Fosfatase Alcalina: soro
+TRANSAMINASE GLUTAMICO-PIRUVICA (TGP)
+GONADOTROFINA CORIONICA HUMANA (HCG): soro
+Sorologia - CoronavÃ­rus: IgA
+Dosagem de Gama GT
+SIFILIS: ANTICORPOS CONTRA ANTIGENO NAO TREPONEMICO(CARDIOLIPINA): soro
+ProteÃ­na C Reativa: plasma
+Urina: Cultura - Jato MÃ©dio
+DETECÇÃO DE CHLAMYDIA TRACHOMATIS POR MÉTODO MOLECULAR
+Hemograma
+Painel Molecular Patogenos Respiratorios
+VARICELLA-ZOSTER VIRUS: ANTICORPOS IgG: soro
+TIROXINA (T4) LIVRE: soro
+Hepatite A (Hav-Vha)-Sorol.Igg
+PSA TOTAL - AntÃ­geno ProstÃ¡tico EspecÃ­fico Total
+Transaminase PirÃºvica ( Tgp )
+PCR em tempo real para detecÃ§Ã£o de Coron
+CREATININA: amostra isolada na urina
+Cultura Quantitativa (Sec. Traqueal E Lavado)
+Enterococo Rest. Vancomin.Pesq
+ANTICORPOS TOTAIS CONTRA O VIRUS DA HEPATITE A (Anti-VHA Total)
+Hepat.B Hbeag(Hbv-Vhb).Sorolog
+DETECÇÃO DE NEISSERIA GONORRHOEAE POR PCR
+TIROGLOBULINA: soro
+ANTICORPOS ANTI-VIRUS DA HEPATITE C (Anti-HCV): soro
 TESTOSTERONA LIVRE.soro
 COVID-19-PCR para SARS-COV-2: VÃ¡rios Materiais (Fleury)
-HORMONIO FOLICULO ESTIMULANTE (FSH): soro
-TriglicÃ©rides
-DETECÇÃO DE CHLAMYDIA TRACHOMATIS POR MÉTODO MOLECULAR
-Acido FÃ³lico
-Hemoglobina Glicada
-HORMONIO LUTEINIZANTE (LH): soro
-CA 19-9: soro
-PrÃ³-calcitonina: Dosagem no Plasma
-Enterococo Rest. Vancomin.Pesq
-Grupo Sanguineo Abo
-ENDOMISIO: ANTICORPOS IgA: soro
-Alfa 1 Glicoproteina Acida: Dos
-DEHIDROEPIANDROSTERONA: soro
-Fosfatase Alcalina: soro
-Dosagem de Desidrogenase LÃ¡ctica
-ACIDO FOLICO: soro
-ANTICORPOS IRREGULARES ANTI-ERITROCITARIOS: soro
-Beta Hcg
-Creatino Fosfoquinase (Cpk)
-ANTICORPO ANTI-RECEPTOR DE TSH (TRAB): soro
-HTLV1/2: ANTICORPOS: soro
-Dosagem de Ferritina
-Glicemia: plasma
-COLESTEROL TOTAL: soro
-ESTRONA (E1): soro
-POTASSIO: soro
-COVID19: ANTICORPOS IgA: soro
-IgM: IMUNOGLOBULINA: soro
-Fosfatase Alcalina
-TRANSAMINASE GLUTAMICO-PIRUVICA (TGP)
-IgE: IMUNOGLOBULINA: soro
-TRIGLICERIDES: soro
-Vitamina D: 25 hidroxi (Vitamina D3): Soro
-SÃ³dio: Soro
-Endomisio: Anticorpo IgG
-ANTIGENO CARCINOEMBRIONICO (CEA): soro
-Glicemia Kit Urg
-Dosagem de CreatiNINA
-Peptideo Natriuretico Tipo B (Bnp)
-Sorologia - CoronavÃ­rus: IgG
-Transglutaminase Iga: Anticorpo Anti
-DETECÇÃO DE NEISSERIA GONORRHOEAE POR PCR
-Cultura: Staphylococcus aureus resistente a oxacilina: varios materiais
-SÃ³dio - Kit Urg
-TRIIODOTIRONINA (T3) LIVRE: soro
-PotÃ¡ssio (K)
-CA-125: soro
-Sifilis: Sorologia Vdrl
-CREATININA: amostra isolada na urina
-Colesterol Total - URG
-Paratormonio - N-Intac
-GLOBULINA LIGADORA DA TIROXINA (TBG): soro
-TIROPEROXIDASE: ANTICORPOS: SORO
-Transaminase OxalacÃ©tica ( Tgo )
-ACIDO URICO: soro
-ALBUMINA: soro
-Vancomicina: Dosagem
-T3 Livre
-ProteÃ­na C Reativa: plasma
-Gama Gt
-BILIRRUBINAS: soro
-TIROXINA (T4): soro
-Creatinina
-T4L: livre: soro
-Lactato - Kit Urg
-GLICOSE: plasma
-HOMOCISTEINA: plasma
-IGE ESPECIFICO: F76 - ALFA-LACTOALBUMINA: soro
-CLORO: soro
-RUBEOLA: ANTICORPOS IgM: soro
-Estradiol
-Hepat.B Anti-Hbc(Hbv)Sorol.Igg
-UrÃ©ia: soro
-FERRITINA: soro
-INSULINA: soro
-Urina Tipo I
-Dosagem de Testosterona Total e Livre
-Dosagem de HematÃ³crito
-IGF-1 (SOMATOMEDINA C): soro
-PotÃ¡ssio - Kit Urg
-Hemograma
-ALBUMINURIA: amostra isolada
-CKMB massa: plasma
-TRIIODOTIRONINA (T3): soro
-Lh:  HormÃ´nio Luteinizante
-FÃ³sforo: soro
-Hemocultura para anaerÃ³bios: por maldi-tof: vÃ¡rios materiais
-IgA: IMUNOGLOBULINA: soro
-Contagem de Plaquetas
-CHLAMYDIA TRACHOMATIS: ANTICORPOS IgG: soro
-Transglutaminase: Tecidual Igg: Soro
-CORTISOL: soro
-DESIDROGENASE LACTICA (DHL): soro
-Glicemia de Jejum
-Proteinas: totais e fraÃ§Ãµes: soro
-PROTEINA C-REATIVA: soro
-ELETROFORESE DAS PROTEÍNAS SÉRICAS
-Dosagem de ProteÃ­nas Totais e FraÃ§Ãµes
-COVID-19-Sorologia IgM e IgG por quimiluminescÃªncia: soro
-Hepatite A (Hav-Vha)-Sorol.Igg
-Hepat.B Anti-Hbc(Hbv)Sorol.Igm
-PROTEINA TOTAL E FRACOES: soro
-IGE ESPECIFICO: F77 - BETA-LACTOGLOBULINA: soro
-Pcr convencional P/ Mycobacterium Tuberculosis: vÃ¡rios materiais
-AntÃ­geno: Influenza: Teste RÃ¡pido (AGINFLU)
-Tempo E Ativid. Protrombina (Tp)
-CALCIO IONIZADO: soro
-HIV: Sorologia (Elisa)
-NÃO-HDL-COLESTEROL: soro
-AMILASE: soro
-Hepat.B Anti-Hbsag(Hbv-Vhb).Au
-Diferencial Manual
-Hemoglobina
-Aspergillus: pesquisa do antÃ­geno galactomanana: VÃ¡rios Materiais
-CHLAMYDIA TRACHOMATIS: ANTICORPOS IgM: soro
-Creatinofosfoquinase - CK-MB
-TP POCT
-SARS-COV-2: ANTICORPOS IgG: soro
-IGE ESPECIFICO: F79 - GLUTEN: soro
-TOXOPLASMA: ANTICORPOS IgG: soro
-ZINCO: plasma
-Testosterona Livre
-ANTISTREPTOLISINA O (ASLO): ANTICORPOS: soro
-Hepatite C Anti-Hcv: Sorologia
-VARICELLA-ZOSTER VIRUS: ANTICORPOS IgG: soro
-Colesterol - FraÃ§Ã£o HDL
-Dosagem de Gama GT
-Fsh: 1.Amostra
-Dosagem de CPK
-CA 72-4: soro
-Dosagem de MagnÃ©sio
-Amilase: soro
 Tromboplastina Parcial Ativada: Tempo de: plasma
-HIV1/HIV2: ANTICORPOS E ANTÍGENO: soro
-IgG: IMUNOGLOBULINA: soro
-Colesterol - FraÃ§Ã£o LDL
-Bacilos Gram-Negativos Resistentes a CarbapenÃªmicos: Cultura: VÃ¡rios Materiais
-Urina Tipo I - Jato Medio
-TEMPO DE PROTROMBINA: plasma
-Dosagem de Bilirrubina Total e FraÃ§Ãµes
-Colesterol nÃ£o-HDL: soro
-Troponina
-SIFILIS: ANTICORPOS TOTAIS ESPECIFICOS ANTI-T.PALLIDUM: soro
-MagnÃ©sio (Mg)
-ANTIGENO DE SUPERFICIE DA HEPATITE B: soro
-ANDROSTENEDIONA: soro
-Dosagem de Vitamina B12
-ALFA-1 GLICOPROTEINA ACIDA: soro
-GLOBULINA LIGADORA DE HORMONIOS SEXUAIS(SHBG): soro
-HEMOGRAMA: sangue total
-Tgp
-CITOMEGALOVIRUS: ANTICORPOS IgG: soro
-SIFILIS: ANTICORPOS CONTRA ANTIGENO NAO TREPONEMICO(CARDIOLIPINA): soro
-CÃ¡lcio Ionizado
-Protrombina: Tempo de: plasma
-PSA LIVRE - AntÃ­geno ProstÃ¡tico EspecÃ­fico Livre
-Ãcido Ãrico: soro
-Hepatite A (Hav-Vha).Sorol.Igm
-Ferritina: Dosagem
-TRANSAMINASE GLUTAMICO-OXALACETICA (TGO)
-D. Dimeros(Dimeros De Fibrina)
-Albumina
-Hepat.B Hbeag(Hbv-Vhb).Sorolog
-VITAMINA B-12: soro
-Dosagem de FÃ³sforo
-Sorologia - CoronavÃ­rus: IgA
-ZIKA VÍRUS: PESQUISA DE ANTICORPOS DA CLASSE IGM: soro
-Tempo de Protrombina
-CA 15-3: soro
-HDL-COLESTEROL: soro
-Colesterol - Fracao HDL
-VITAMINA A (retinol): soro
-Lactato
-TESTOSTERONA LIVRE: soro
-Clostridium Difficile: pesquisa do DNA: fezes (PCR em tempo Real)
-PSA TOTAL - AntÃ­geno ProstÃ¡tico EspecÃ­fico Total
-HORMONIO ADRENOCORTICOTROFICO (ACTH): plasma
-Dosagem de PotÃ¡ssio
-Cultura Quantitativa (Sec. Traqueal E Lavado)
-UrÃ©ia
-MAGNESIO: soro
-IGFBP-3 (PROTEINA LIGADORA-3 DO FATOR DE CRESCIMENTO SIMILE A INSULINA)
-CÃ¡lcio: soro
-Alfa Feto ProteÃ­na
-Hepat.B Hbsag(Hbv-Vhb).Sorolog
-SATURAÇÃO DA TRANSFERRINA: soro
+Lh:  HormÃ´nio Luteinizante
+Calculo da Estimativa da Taxa: de Filtracao Glomular: soro
+CÃ¡lcio IonizÃ¡vel - Kit Urg
+TOXOPLASMA: ANTICORPOS IgM: soro
+Gama Gt
+Cultura: Staphylococcus aureus resistente a oxacilina: varios materiais
+Dosagem de HematÃ³crito
+ANTIGENO PROSTATICO ESPECIFICO(PSA): soro
 Tireoglobulina: Anticorpo Anti
-Gasometria Venosa
+T3 - Tri Iodotironina
+Peptideo C
+D. Dimeros(Dimeros De Fibrina)
+IGF-1 (SOMATOMEDINA C): soro
+ACIDO FOLICO: soro
+PROTEINA TOTAL E FRACOES: soro
+Colesterol Total e FraÃ§Ãµes
+PARATORMONIO (PTH): MOLECULA INTACTA: soro
+ESTRADIOL: soro
+FOSFORO INORGANICO: soro
+Dosagem de Lipase
+VLDL-COLESTEROL: soro
+IgE: IMUNOGLOBULINA: soro
+Sorologia Para Sifilis Fta/Abs
+Hemoglobina
+Dosagem de PotÃ¡ssio
+Dosagem de Hemoglobina
+HORMONIO FOLICULO ESTIMULANTE (FSH): soro
+TIROXINA (T4): soro
+Lipase (urgÃªncia)
+Creatinina
+URINA TIPO I - JATO MEDIO
+IgA: IMUNOGLOBULINA: soro
+Glicemia Kit Urg
+CA 15-3: soro
+ACIDO ASCORBICO: plasma
+TRIIODOTIRONINA (T3): soro
+ENDOMISIO: ANTICORPOS IgA: soro
+Dosagem de UrÃ©ia
+Amilase
+CA 19-9
+Gama - Glutamil Transferase  (Ggt)
+CÃ¡lcio IonizÃ¡vel
+AMILASE: soro
+SARS-COV-2: ANTICORPOS IgG: soro
+DIHIDROTESTOSTERONA (DHT): soro
+Tempo E Ativid. Protrombina (Tp)
+Transglutaminase Iga: Anticorpo Anti
+SÃ³dio
+ANTICORPOS IRREGULARES ANTI-ERITROCITARIOS: soro
+Bilirrubinas Total E Fracoes
+FIBRINOGENIO: plasma
+Fsh: 1.Amostra
+SÃ³dio - Kit Urg
+Tsh - Hormonio Tiroestimulante
+Dosagem de Bilirrubina Total e FraÃ§Ãµes
+CA-125: soro
+MagnÃ©sio (Mg)
+LDL-COLESTEROL: soro
+CKMB massa: plasma
+CITOMEGALOVIRUS: ANTICORPOS IgM: soro
+ELETROFORESE DAS PROTEÍNAS SÉRICAS
+Glicemia: plasma
+CA 19-9: soro
+IGFBP-3 (PROTEINA LIGADORA-3 DO FATOR DE CRESCIMENTO SIMILE A INSULINA)
+COLESTEROL TOTAL: soro
+Plaquetas: contagem: sangue total
+ACIDO URICO: soro
+Pesquisa RÃ¡pida para Influenza A e B
+HemossedimentaÃ§Ã£o(Vhs) 1.Hora
+Magnesio
+CHLAMYDIA TRACHOMATIS: ANTICORPOS IgM: soro
+COVID19: ANTICORPOS IgM: soro
+GAMA GLUTAMIL TRANSFERASE (GAMA-GT): soro
+FOSFATASE ALCALINA (ALP): soro
+Dengue: antÃ­geno NS1: soro: teste rÃ¡pido
+HIV: Sorologia (Elisa)
+Creatinofosfoquinase Cpk-Ck
+LIPASE: soro
+COVID-19-Sorologia IgM e IgG por quimiluminescÃªncia: soro
+Alfa Feto ProteÃ­na
+HDL-COLESTEROL: soro
+HEPATITE B: ANTICORPO CONTRA ANTIGENO DE SUPERFICIE: soro (Anti-HBs)
+NÃO-HDL-COLESTEROL: soro
+Testosterona especial: soro
+Hepat.B Anti-Hbc(Hbv)Sorol.Igm
+Prolactina
+ANTIGENO DE SUPERFICIE DA HEPATITE B: soro
+HIV1/HIV2: ANTICORPOS E ANTÍGENO: soro
+CLORO: soro
+Troponina
+Lactato
+DetecÃ§Ã£o de vÃ­rus respiratÃ³rio: por PCR: VÃ¡rios Materiais
+Colesterol - FraÃ§Ã£o VLDL
+NOVO CORONAVÍRUS 2019 (SARS-CoV-2): DETECÇÃO POR PCR
+ANDROSTENEDIONA: soro
+ProteÃ­na C Reativa: por imunoturbidimetria: soro
+FATOR REUMATOIDE: soro
+SODIO: soro
+Dosagem de Insulina
+Colesterol nÃ£o-HDL: soro
+Creatinina: soro
+CREATINOQUINASE TOTAL (CK): soro
+Acido FÃ³lico
+Hepat.B Hbsag(Hbv-Vhb).Sorolog
 Hemograma: sangue total
-Desidrogenase LÃ¡tica (DHL/L)
+Teste rÃ¡pido Coronavirus COVID19 IgG/IgM
+Dosagem de CreatiNINA
+CITOMEGALOVIRUS: ANTICORPOS IgG: soro
+Hepat.B Anti-Hbsag(Hbv-Vhb).Au
+FÃ³sforo
+TEMPO DE PROTROMBINA: plasma
+CHLAMYDIA TRACHOMATIS: ANTICORPOS IgG: soro
+Bilirrubinas: soro
+UREIA: soro
+RUBEOLA: ANTICORPOS IgM: soro
+Dosagem de Testosterona Total e Livre
+Gonadotrofina CoriÃ´nica (B - Hcg) (Rie Ou Eie)
+HORMONIO TIROESTIMULANTE (TSH): soro
+IGE ESPECIFICO: F79 - GLUTEN: soro
+COVID19: ANTICORPOS IgA: soro
+ZIKA VÍRUS: PESQUISA DE ANTICORPOS DA CLASSE IGM: soro
+TESTE TUBERCULINICO COM PPD
+ANTICORPOS ANTI-TIROGLOBULINA: soro
+Dengue: Anticorpo IgM: soro
+POTASSIO: soro
+Dosagem de Glicose
+TRIGLICERIDES: soro
+PROLACTINA (PRL): soro
+TESTOSTERONA LIVRE: soro
+BILIRRUBINAS: soro
+Endomisio: Anticorpo Anti (IgA)
+Estradiol
+IgG: IMUNOGLOBULINA: soro
+Colesterol - FraÃ§Ã£o HDL
+SULFATO DE DEHIDROEPIANDROSTERONA (DHEA-S): soro
+Saturacao da Transferrina: soro
+GLOBULINA LIGADORA DA TIROXINA (TBG): soro
+Dosagem de SÃ³dio
+Dosagem de CÃ¡lcio IÃ´nico
+CORTISOL: soro
+Dosagem de ProteÃ­nas Totais e FraÃ§Ãµes
+Urina Tipo I
+Dosagem de Ferritina
+Tempo de Protrombina
+Colesterol - Fracao HDL
+AntÃ­geno: Influenza: Teste RÃ¡pido (AGINFLU)
+PROGESTERONA: soro
+Dosagem de Desidrogenase LÃ¡ctica
+INSULINA: soro
+CA 72-4: soro
+PROTEINA C-REATIVA: soro
+APOLIPOPROTEINA A-1: soro
+Sorologia SARS-CoV-2/COVID19 IgG/IgM
+FibrinogÃªnio: Dosagem Do
+CitomegalovÃ­rus (CMV): Sorologia IgG
+Hemocultura para aerÃ³bios: por maldi-tof: vÃ¡rios materiais
+HEMOSSEDIMENTACAO: sangue total
+RUBEOLA: ANTICORPOS IgG: soro
+AntÃ­geno CarcinoembriogÃªnico (CEA)
+TRIIODOTIRONINA (T3) LIVRE: soro
+Sorologia - CoronavÃ­rus: IgG
+25 HIDROXI-VITAMINA D: soro
+Urina Tipo I - Jato Medio
+Peptideo Natriuretico Tipo B (Bnp)
+HTLV1/2: ANTICORPOS: soro
+VDRL
+MAGNESIO: soro
+GLICOSE: plasma
 Tgo
-ANTICORPOS ANTI-PEROXIDASE TIROIDIANA: soro
+Dosagem de D-DÃ­mero
+Aspergillus: pesquisa do antÃ­geno galactomanana: VÃ¡rios Materiais
+TEMPO DE TROMBOPLASTINA PARCIAL ATIVADA: plasma
+TESTOSTERONA: soro
+ALFA-1 GLICOPROTEINA ACIDA: soro
+FÃ³sforo: soro
+Creatino Fosfoquinase (Cpk)
+Endomisio: Anticorpo IgG
+Dosagem de FÃ³sforo
+Hepatite C Anti-Hcv: Sorologia
+Bk (MicobactÃ©rias): Cultura
+Cloro - Kit Urg
+Lactato - Kit Urg
+Dosagem de Vitamina B12
+PrÃ³-calcitonina: Dosagem no Plasma
+ANTICORPOS DA CLASSE IgA ANTI-TRANSGLUTAMINASE TECIDUAL: soro
+PotÃ¡ssio (K)
+HOMOCISTEINA: plasma
+TRANSAMINASE GLUTAMICO-OXALACETICA (TGO)
+PESQUISA TRICOMONAS
+HORMONIO ADRENOCORTICOTROFICO (ACTH): plasma
+Colesterol - FraÃ§Ã£o LDL
+Paratormonio - N-Intac
+Pesquisa de Estreptococos do Grupo A
+VITAMINA B-12: soro
+Fosfatase Alcalina
+Dosagem de TGP
+TriglicÃ©rides
+Beta Hcg
+APOLIPOPROTEINA B: soro
+Vitamina B-12: Dosagem
+HORMONIO LUTEINIZANTE (LH): soro
+Contagem dos ReticulÃ³citos
+Dengue: Anticorpo IgG: soro
+TriglicerÃ­dios (Tg )
+Protrombina: Tempo de: plasma
+ANTICORPO ANTI-RECEPTOR DE TSH (TRAB): soro
+Diferencial Manual
+Creatinofosfoquinase - CK-MB
+Transaminase OxalacÃ©tica ( Tgo )
+UrÃ©ia
+DESIDROGENASE LACTICA (DHL): soro
+PotÃ¡ssio - Kit Urg
+TTPA
+Tempo Tromb.Parcial Ativada
+IGE ESPECIFICO: F76 - ALFA-LACTOALBUMINA: soro
+Vitamina D: 25 hidroxi (Vitamina D3): Soro
+Desidrogenase LÃ¡tica (DHL/L)
+Hemograma com Plaquetas
+Sifilis: Sorologia Vdrl
+ANTICORPO CONTRA O ANTIGENO DO CORE DO VIRUS DA HEPATITE B: soro
+CALCIO IONIZADO: soro
+PROTEINA TOTAL: soro
+ANTISTREPTOLISINA O (ASLO): ANTICORPOS: soro
+ANTIGENO CARCINOEMBRIONICO (CEA): soro
+T4L: livre: soro
+PSA LIVRE - AntÃ­geno ProstÃ¡tico EspecÃ­fico Livre
+Alfa 1 Glicoproteina Acida: Dos
