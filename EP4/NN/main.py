@@ -7,7 +7,7 @@ dados os valores de features meteorologicas selecionadas.
 Salva tambem o modelo em disco e abre um menu iterativo para a utilizacao
 exploratoria do  modelo.
 """
-
+     
 
 from data import load_data, pre_processing, visualize_data
 from use import use_iteratively
