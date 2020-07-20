@@ -1,230 +1,189 @@
-PCR em tempo real para detecção de Coron - Resultado COVID-19:
-Hemograma: sangue total - Volume plaquetário médio
-Painel Molecular Patogenos Respiratorios - Metapneumoví­rus
-Dosagem de Hematócrito - Hematócrito
-Hemograma - Neutrófilos
-Hemograma - Monócitos
+ALFA-1 GLICOPROTEINA ACIDA: soro - Alfa-1 Glicopr Acida
+Alfa 1 Glicoproteina Acida: Dos - Alfa-1 Glicopr Acida
+COVID-19-PCR para SARS-COV-2: Vários Materiais (Fleury) - Coronaví­rus (2019-nCoV)
+COVID-19-PCR para SARS-COV-2: Vários Materiais (Fleury) - Material (2019-nCoV)
 COVID-19-Sorologia IgM e IgG por quimiluminescência: soro - Covid 19: Anticorpos IgG: Quimioluminescência
-Hemograma com Plaquetas - HCM
-HEMOGRAMA: sangue total - Basófilos
-Hemograma - Metamielócitos (%)
-Diferencial Manual - Mieloblastos
-Sorologia SARS-CoV-2/COVID19 IgG/IgM - IgM: COVID19
+COVID-19-Sorologia IgM e IgG por quimiluminescência: soro - Covid 19: Anticorpos IgM: Quimioluminescência
+COVID19: ANTICORPOS IgA: soro - Covid 19: Anticorpos IgA: Elisa
 COVID19: ANTICORPOS IgA: soro - Covid 19: Anticorpos IgA: Elisa - Índice
+COVID19: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Elisa
+COVID19: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Elisa - Índice
+COVID19: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Quimiolumin.-Índice
+COVID19: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Quimioluminescência
+COVID19: ANTICORPOS IgM: soro - Covid 19: Anticorpos IgM: Quimiolumin.-Índice
+COVID19: ANTICORPOS IgM: soro - Covid 19: Anticorpos IgM: Quimioluminescência
+Contagem de Plaquetas - Plaquetas
+Contagem de Plaquetas - Volume Médio Plaquetário
+Cultura Quantitativa (Sec. Traqueal E Lavado) - Cultura Quantitativa
 Cultura Quantitativa (Sec. Traqueal E Lavado) - Cultura Quantitativa - Parcial
-Hemossedimentação(Vhs) 1.Hora - VHS
-IgG: IMUNOGLOBULINA: soro - IgG: Imunoglobulina
-Hemograma Contagem Auto - Eosinófilos  #
-Painel Molecular Patogenos Respiratorios - Coronaví­rus229E
-Gasometria Venosa - BE (gasometria venosa)
-Hemograma - Monócitos (%)
-HEMOGRAMA: sangue total - VCM
-Hemograma: sangue total - Monócitos
-Gasometria Venosa - pCO2 (gasometria venosa)
-Hemograma - Plasmócitos (%)
-HEMOGRAMA: sangue total - Leucócitos
-Sorologia - Coronaví­rus: IgG - Covid 19: Anticorpos IgG
-Hemograma: sangue total - HCM
-Diferencial Manual - Bastonetes #
-Tempo E Ativid. Protrombina (Tp) - Tempo de Protrombina
-Diferencial Manual - Eosinófilos
-Dosagem de D-Dí­mero - D-Dí­mero
-Detecção de ví­rus respiratório: por PCR: Vários Materiais - Ví­rus Respiratórios - Detecção molecular
-Hemograma com Plaquetas - Leucócitos #
-Painel Molecular Patogenos Respiratorios - Inf A H1N1 2009
-Diferencial Manual - Segmentados #
-Painel Molecular Patogenos Respiratorios - Adenovirus
 D. Dimeros(Dimeros De Fibrina) - Dimeros D: quant
-Hemograma: sangue total - Linfócitos (%)
+Detecção de ví­rus respiratório: por PCR: Vários Materiais - Ví­rus Respiratórios - Detecção molecular
+Diferencial Manual - Bastonestes
+Diferencial Manual - Bastonetes #
+Diferencial Manual - Basófilos
+Diferencial Manual - Basófilos #
+Diferencial Manual - Eosinófilos  #
+Diferencial Manual - Linfócitos
+Diferencial Manual - Linfócitos #
+Diferencial Manual - Metamielócitos
+Diferencial Manual - Metamielócitos #
+Diferencial Manual - Mieloblastos
+Diferencial Manual - Mieloblastos #
+Diferencial Manual - Mielócitos
+Diferencial Manual - Mielócitos #
+Diferencial Manual - Monócitos
+Diferencial Manual - Monócitos #
 Diferencial Manual - Segmentados
-Hemograma: sangue total - Leucócitos
-Hemograma com Plaquetas - Plaquetas
-Painel Molecular Patogenos Respiratorios - Coronaví­rusNL63
-Painel Molecular Patogenos Respiratorios - Bordetella pertussis
-Diferencial Manual - Promielócitos
-NOVO CORONAVÍRUS 2019 (SARS-CoV-2): DETECÇÃO POR PCR - Covid 19: Detecção por PCR
+Diferencial Manual - Segmentados #
+Dosagem de D-Dí­mero - D-Dí­mero
+Dosagem de Ferritina - Ferritina
+Dosagem de Hematócrito - Hematócrito
+Dosagem de Hemoglobina - Hemoglobina
+FERRITINA: soro - Ferritina
+FERRO: soro - Ferro
+Ferritina: Dosagem - Ferritina
+Fibrinogênio: Dosagem Do - Fibrinogenio
+Gasometria Venosa - BE (gasometria venosa)
+Gasometria Venosa - BE venoso
+Gasometria Venosa - CO2 Total (gasometria venosa)
+Gasometria Venosa - Fio2 (gasometria venosa)
+Gasometria Venosa - HCO3 (gasometria venosa)
+Gasometria Venosa - HCO3 venoso
+Gasometria Venosa - Sat O2 venoso
+Gasometria Venosa - Saturação da Hb (gasometria venosa)
+Gasometria Venosa - pCO2 (gasometria venosa)
+Gasometria Venosa - pCO2 venoso
+Gasometria Venosa - pH (gasometria venosa)
+Gasometria Venosa - pH venoso
+Gasometria Venosa - pO2 (gasometria venosa)
+Gasometria Venosa - pO2 venoso
+HEMOGRAMA: sangue total - Basófilos
+HEMOGRAMA: sangue total - Basófilos (%)
+HEMOGRAMA: sangue total - Concentração de Hemoglobina Corpuscular
+HEMOGRAMA: sangue total - Eritrócitos
+HEMOGRAMA: sangue total - Hematócrito
+HEMOGRAMA: sangue total - Hemoglobina
+HEMOGRAMA: sangue total - Hemoglobina Corpuscular Média
+HEMOGRAMA: sangue total - Leucócitos
+HEMOGRAMA: sangue total - Linfócitos
+HEMOGRAMA: sangue total - Linfócitos (%)
+HEMOGRAMA: sangue total - Monócitos
+HEMOGRAMA: sangue total - Monócitos (%)
+HEMOGRAMA: sangue total - Morfologia: Série Branca
+HEMOGRAMA: sangue total - Morfologia: Série Vermelha
+HEMOGRAMA: sangue total - Neutrófilos
+HEMOGRAMA: sangue total - Neutrófilos (%)
+HEMOGRAMA: sangue total - Plaquetas
+HEMOGRAMA: sangue total - RDW
+HEMOGRAMA: sangue total - VCM
+HEMOGRAMA: sangue total - Volume plaquetário médio
+HEMOSSEDIMENTACAO: sangue total - VHS
+Hemoglobina - Hemoglobina
+Hemograma - Bastonetes
+Hemograma - Bastonetes (%)
+Hemograma - Basófilos
+Hemograma - Basófilos (%)
+Hemograma - CHCM
+Hemograma - Eritrócitos
+Hemograma - Fração Imatura de Plaquetas
+Hemograma - HCM
+Hemograma - Hematócrito
+Hemograma - Hemoglobina
+Hemograma - Leucócitos
+Hemograma - Linfócitos
+Hemograma - Linfócitos (%)
+Hemograma - Metamielócitos
+Hemograma - Metamielócitos (%)
+Hemograma - Mielócitos
+Hemograma - Mielócitos (%)
+Hemograma - Monócitos
+Hemograma - Monócitos (%)
+Hemograma - Morfologia: SB
+Hemograma - Neutrófilos
+Hemograma - Neutrófilos (%)
+Hemograma - Plaquetas
+Hemograma - RDW
 Hemograma - Segmentados
+Hemograma - Segmentados (%)
+Hemograma - VCM
+Hemograma - Volume plaquetário médio
+Hemograma Contagem Auto - Basófilos
+Hemograma Contagem Auto - Basófilos #
+Hemograma Contagem Auto - Eosinófilos  #
 Hemograma Contagem Auto - Linfócitos
 Hemograma Contagem Auto - Linfócitos #
-Hemograma com Plaquetas - CHCM
-Hemograma com Plaquetas - Volume Médio Plaquetário
-HEMOGRAMA: sangue total - Eosinófilos
-Hemograma Contagem Auto - Basófilos
-Hemograma - Basófilos (%)
-Gasometria Venosa - pH (gasometria venosa)
-Sorologia SARS-CoV-2/COVID19 IgG/IgM - COVID IgG Interp
-Hemograma - Linfócitos (%)
-Tempo de Protrombina - TP: Atividade
-FERRO: soro - Ferro
-Hemograma: sangue total - CHCM
-COVID-19-Sorologia IgM e IgG por quimiluminescência: soro - Covid 19: Anticorpos IgM: Quimiolumin.-índice
-Painel Molecular Patogenos Respiratorios - Mycoplasma pneumoniae
-SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Elisa
-Sorologia SARS-CoV-2/COVID19 IgG/IgM - IgG: COVID19
-Contagem de Plaquetas - Volume Médio Plaquetário
-Gasometria Venosa - Saturação da Hb (gasometria venosa)
-Hemograma - Mielócitos
-Hemograma: sangue total - Monócitos (%)
-Hemograma: sangue total - Neutrófilos (%)
-Ferritina: Dosagem - Ferritina
-Teste rápido Coronavirus COVID19 IgG/IgM - COVID19 IgM: teste rápido
-HEMOGRAMA: sangue total - Plaquetas
-COVID19: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Elisa - Índice
-Dosagem de Hemoglobina - Hemoglobina
-Gasometria Venosa - HCO3 (gasometria venosa)
-COVID19: ANTICORPOS IgM: soro - Covid 19: Anticorpos IgM: Quimioluminescência
-HEMOGRAMA: sangue total - Concentração de Hemoglobina Corpuscular
-HEMOGRAMA: sangue total - Morfologia: Série Branca
-Painel Molecular Patogenos Respiratorios - Ví­rus Sincicial Respiratório
-Hemograma - Basófilos
-Diferencial Manual - Mieloblastos #
-Hemograma - CHCM
-Hemograma: sangue total - Eritrócitos
-Hemoglobina - Hemoglobina
-Gasometria Venosa - pH venoso
-Diferencial Manual - Basófilos #
-Diferencial Manual - Mielócitos #
-Teste rápido Coronavirus COVID19 IgG/IgM - COVID19 IgG: teste rápido
-HEMOGRAMA: sangue total - Basófilos (%)
-Hemograma Contagem Auto - Neutrófilos
-Hemograma com Plaquetas - Hemácias
-Saturacao da Transferrina: soro - Siderofilina
-Saturacao da Transferrina: soro - Ferro
-SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Antic IgA/IgG: Elisa - observação
-Hemograma - Volume plaquetário médio
-HEMOGRAMA: sangue total - Hematócrito
-SATURAÇÃO DA TRANSFERRINA: soro - Ferro - Capac Total ligação
-Hemograma - Bastonetes (%)
-Hemograma: sangue total - Morfologia: SB
-Hemograma - Promielócitos (%)
-Hemograma - VCM
-Hemograma: sangue total - Hematócrito
-Hemograma - Neutrófilos (%)
-FERRITINA: soro - Ferritina
-Hemograma: sangue total - Basófilos
-HEMOGRAMA: sangue total - Eosinófilos (%)
-Diferencial Manual - Metamielócitos #
-Gasometria Venosa - pCO2 venoso
-SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Elisa - Índice
-IgM: IMUNOGLOBULINA: soro - IgM: Imunoglobulina
-Painel Molecular Patogenos Respiratorios - Influenza  A
-Alfa 1 Glicoproteina Acida: Dos - Alfa-1 Glicopr Acida
-Hemograma: sangue total - Eosinófilos
-Hemograma: sangue total - RDW
-Plaquetas: contagem: sangue total - Plaquetas
-TEMPO DE PROTROMBINA: plasma - Tempo de Protrombina
-COVID19: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Elisa
-Hemograma - Plaquetas
-Hemograma - Fração Imatura de Plaquetas
-HEMOGRAMA: sangue total - Neutrófilos
-Hemograma: sangue total - Morfologia: SVE
-Painel Molecular Patogenos Respiratorios - Influenza  B
-Diferencial Manual - Bastonestes
-Hemograma: sangue total - Linfócitos
-Gasometria Venosa - Sat O2 venoso
-Hemograma Contagem Auto - Neutrófilos  #
-COVID-19-PCR para SARS-COV-2: Vários Materiais (Fleury) - Material (2019-nCoV)
-Tempo de Protrombina - RNI
-FIBRINOGENIO: plasma - Fibrinogenio
-HEMOGRAMA: sangue total - Monócitos (%)
-Hemograma - Morfologia: SVE
-Hemograma - Mielócitos (%)
-Gasometria Venosa - Fio2 (gasometria venosa)
-Fibrinogênio: Dosagem Do - Fibrinogenio
-Painel Molecular Patogenos Respiratorios - Coronaví­rusOC43
-Hemograma: sangue total - Basófilos (%)
-Painel Molecular Patogenos Respiratorios - Rhinoví­rus/Enteroví­rus
-Painel Molecular Patogenos Respiratorios - Parainfluenza 4
-Hemograma - RDW
-NOVO CORONAVÍRUS 2019 (SARS-CoV-2): DETECÇÃO POR PCR - Covid 19: Material
-HEMOGRAMA: sangue total - Neutrófilos (%)
-HEMOGRAMA: sangue total - Volume plaquetário médio
-Plaquetas: contagem especial: sangue total - Plaquetas
-Hemograma: sangue total - VCM
-Painel Molecular Patogenos Respiratorios - Parainfluenza 3
-Diferencial Manual - Metamielócitos
-COVID19: ANTICORPOS IgA: soro - Covid 19: Anticorpos IgA: Elisa
-Hemograma com Plaquetas - VCM
-SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgA: Elisa
-Gasometria Venosa - BE venoso
-COVID19: ANTICORPOS IgM: soro - Covid 19: Anticorpos IgM: Quimiolumin.-Índice
-SATURAÇÃO DA TRANSFERRINA: soro - Ferro - Grau de Saturação
-Hemograma - Promielócitos
-HEMOGRAMA: sangue total - Eritrócitos
-HEMOGRAMA: sangue total - Linfócitos (%)
-Hemograma - Bastonetes
-HEMOGRAMA: sangue total - Linfócitos
-Dosagem de Ferritina - Ferritina
-Gasometria Venosa - HCO3 venoso
-Tempo E Ativid. Protrombina (Tp) - TP/INR
-Hemograma Contagem Auto - Eosinófilos
-TEMPO DE PROTROMBINA: plasma - TP/INR
-Sorologia - Coronaví­rus: IgG - Covid 19: Anticorpos IgG: í­ndice
-SATURAÇÃO DA TRANSFERRINA: soro - Ferro
-Painel Molecular Patogenos Respiratorios - Parainfluenza 1
-Painel Molecular Patogenos Respiratorios - Coronaví­rusHKU1
-HEMOGRAMA: sangue total - Hemoglobina Corpuscular Média
-Diferencial Manual - Monócitos
-Hemograma com Plaquetas - Hematócrito
-Saturacao da Transferrina: soro - Ferro Grau Saturação
-COVID19: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Quimioluminescência
-Hemograma - HCM
-Diferencial Manual - Basófilos
-Hemograma - Eosinófilos (%)
-Contagem dos Reticulócitos - Hemácias
-HEMOGRAMA: sangue total - RDW
-Hemograma - Eosinófilos
-Sorologia - Coronaví­rus: IgA - Covid 19: Anticorpos IgA: í­ndice
-Hemograma - Eritrócitos
-Painel Molecular Patogenos Respiratorios - Chlamydophila pneumoniae
-Plaquetas: contagem: sangue total - Volume plaquetário médio
-Painel Molecular Patogenos Respiratorios - Parainfluenza 2
-COVID-19-Sorologia IgM e IgG por quimiluminescência: soro - Covid 19: Anticorpos IgM: Quimioluminescência
-Hemograma: sangue total - Hemoglobina
-Cultura Quantitativa (Sec. Traqueal E Lavado) - Cultura Quantitativa
-Hemograma: sangue total - Neutrófilos
-Pcr convencional P/ Mycobacterium Tuberculosis: vários materiais - Mycobacterium tuberculosis PCR
-Hemograma - Segmentados (%)
-HEMOGRAMA: sangue total - Morfologia: Série Vermelha
-HEMOGRAMA: sangue total - Monócitos
-Hemograma com Plaquetas - Hemoglobina
-Hemograma - Hematócrito
-Sorologia SARS-CoV-2/COVID19 IgG/IgM - COVID IgM Interp
-Protrombina: Tempo de: plasma - TP/INR
-Sorologia - Coronaví­rus: IgA - Covid 19: Anticorpos IgA
-Diferencial Manual - Eosinófilos  #
-Hemograma - Plasmóticos
-Hemograma Contagem Auto - Basófilos #
-SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgA: Elisa - Índice
-Plaquetas: contagem especial: sangue total - Volume plaquetário médio
-Contagem de Plaquetas - Plaquetas
-Hemograma Contagem Auto - Monócitos #
-HEMOGRAMA: sangue total - Hemoglobina
-COVID19: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Quimiolumin.-Índice
-TP POCT - RNI
-SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Antic IgA/IgG: Elisa-Interpretação
-COVID-19-Sorologia IgM e IgG por quimiluminescência: soro - Covid 19: Anticorpos IgG: Quimiolumin.-índice
-Gasometria Venosa - pO2 venoso
-HEMOSSEDIMENTACAO: sangue total - VHS
-Hemograma - Leucócitos
-Hemograma - Hemoglobina
-Contagem dos Reticulócitos - Hematócrito
-Hemograma - Linfócitos
-Hemograma: sangue total - Plaquetas
-Diferencial Manual - Promielócitos #
-Diferencial Manual - Linfócitos #
-Diferencial Manual - Mielócitos
-Gasometria Venosa - CO2 Total (gasometria venosa)
-Hemograma - Metamielócitos
-Diferencial Manual - Linfócitos
-Hemograma: sangue total - Eosinófilos (%)
-Hemograma - Morfologia: SB
-Gasometria Venosa - pO2 (gasometria venosa)
-IgA: IMUNOGLOBULINA: soro - IgA: Imunoglobulina
-Protrombina: Tempo de: plasma - Tempo de Protrombina
-Diferencial Manual - Monócitos #
-ALFA-1 GLICOPROTEINA ACIDA: soro - Alfa-1 Glicopr Acida
-Hemograma com Plaquetas - Leucócitos
-Hemograma com Plaquetas - RDW
-COVID-19-PCR para SARS-COV-2: Vários Materiais (Fleury) - Coronaví­rus (2019-nCoV)
 Hemograma Contagem Auto - Monócitos
+Hemograma Contagem Auto - Monócitos #
+Hemograma Contagem Auto - Neutrófilos
+Hemograma Contagem Auto - Neutrófilos  #
+Hemograma com Plaquetas - CHCM
+Hemograma com Plaquetas - HCM
+Hemograma com Plaquetas - Hematócrito
+Hemograma com Plaquetas - Hemoglobina
+Hemograma com Plaquetas - Hemácias
+Hemograma com Plaquetas - Leucócitos
+Hemograma com Plaquetas - Leucócitos #
+Hemograma com Plaquetas - Plaquetas
+Hemograma com Plaquetas - RDW
+Hemograma com Plaquetas - VCM
+Hemograma com Plaquetas - Volume Médio Plaquetário
+Hemograma: sangue total - Basófilos
+Hemograma: sangue total - Basófilos (%)
+Hemograma: sangue total - CHCM
+Hemograma: sangue total - Eritrócitos
+Hemograma: sangue total - HCM
+Hemograma: sangue total - Hematócrito
+Hemograma: sangue total - Hemoglobina
+Hemograma: sangue total - Leucócitos
+Hemograma: sangue total - Linfócitos
+Hemograma: sangue total - Linfócitos (%)
+Hemograma: sangue total - Monócitos
+Hemograma: sangue total - Monócitos (%)
+Hemograma: sangue total - Morfologia: SB
+Hemograma: sangue total - Neutrófilos
+Hemograma: sangue total - Neutrófilos (%)
+Hemograma: sangue total - Plaquetas
+Hemograma: sangue total - RDW
+Hemograma: sangue total - VCM
+Hemograma: sangue total - Volume plaquetário médio
+Hemossedimentação(Vhs) 1.Hora - VHS
+IgA: IMUNOGLOBULINA: soro - IgA: Imunoglobulina
+IgG: IMUNOGLOBULINA: soro - IgG: Imunoglobulina
+IgM: IMUNOGLOBULINA: soro - IgM: Imunoglobulina
+PCR em tempo real para detecção de Coron - Resultado COVID-19:
+Painel Molecular Patogenos Respiratorios - Coronaví­rus229E
+Painel Molecular Patogenos Respiratorios - Coronaví­rusHKU1
+Painel Molecular Patogenos Respiratorios - Coronaví­rusNL63
+Painel Molecular Patogenos Respiratorios - Coronaví­rusOC43
+Painel Molecular Patogenos Respiratorios - Ví­rus Sincicial Respiratório
+Plaquetas: contagem especial: sangue total - Plaquetas
+Plaquetas: contagem especial: sangue total - Volume plaquetário médio
+Plaquetas: contagem: sangue total - Plaquetas
+Plaquetas: contagem: sangue total - Volume plaquetário médio
+Protrombina: Tempo de: plasma - TP/INR
+Protrombina: Tempo de: plasma - Tempo de Protrombina
+SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Antic IgA/IgG: Elisa - observação
+SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Antic IgA/IgG: Elisa-Interpretação
+SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgA: Elisa
+SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgA: Elisa - Índice
+SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Elisa
+SARS-COV-2: ANTICORPOS IgG: soro - Covid 19: Anticorpos IgG: Elisa - Índice
+Saturacao da Transferrina: soro - Ferro
+Saturacao da Transferrina: soro - Ferro Grau Saturação
+Saturacao da Transferrina: soro - Siderofilina
+Sorologia - Coronaví­rus: IgA - Covid 19: Anticorpos IgA
+Sorologia - Coronaví­rus: IgA - Covid 19: Anticorpos IgA: í­ndice
+Sorologia - Coronaví­rus: IgG - Covid 19: Anticorpos IgG
+Sorologia - Coronaví­rus: IgG - Covid 19: Anticorpos IgG: í­ndice
+Sorologia SARS-CoV-2/COVID19 IgG/IgM - COVID IgG Interp
+Sorologia SARS-CoV-2/COVID19 IgG/IgM - COVID IgM Interp
+Sorologia SARS-CoV-2/COVID19 IgG/IgM - IgG: COVID19
+Sorologia SARS-CoV-2/COVID19 IgG/IgM - IgM: COVID19
+TEMPO DE PROTROMBINA: plasma - TP/INR
+TEMPO DE PROTROMBINA: plasma - Tempo de Protrombina
+Tempo E Ativid. Protrombina (Tp) - TP/INR
+Tempo E Ativid. Protrombina (Tp) - Tempo de Protrombina
+Tempo de Protrombina - RNI
+Tempo de Protrombina - TP: Atividade
+Teste rápido Coronavirus COVID19 IgG/IgM - COVID19 IgG: teste rápido
+Teste rápido Coronavirus COVID19 IgG/IgM - COVID19 IgM: teste rápido

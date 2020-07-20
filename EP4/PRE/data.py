@@ -3,12 +3,26 @@ Programa que implementa as funcoes necessarias para o pre-processmento dos
 dados brutos, necessario para leva-los a um estado adequado para
 o treinamento pelo modelo definido em model.py.
 '''
-
+     
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sortedcontainers import SortedSet
 
+def rolling_hash(a):
+    """Ordena datas transformando DD/MM/AAAA em números base 10 da direita para a esquerda"""
+    p = 10
+    cur = 1
+    val = 0
+    n = len(a)
+    for i in range(0, n):
+        char_val = ord(a[n - 1 - i]) - ord('0')
+        if char_val < 0 or char_val > 10:
+            continue
+        val = val + cur*char_val 
+        cur = cur*p
+    return val
 
 def load_data(data_path):
     """Funcao que importa dados de um arquivo csv, usando pandas"""
@@ -22,7 +36,7 @@ def filter_inputs(dataframes):
     'de_analito'"""
 
     # Filtra a coluna 'de_exame'
-    exames_bruto = set()
+    exames_bruto = SortedSet()
     for arquivo in dataframes:
         for exame in arquivo['de_exame']:
             exames_bruto.add(exame)
@@ -31,13 +45,13 @@ def filter_inputs(dataframes):
             arquivo.write(exame + "\n")
 
     # Filtra a coluna 'de_analito'
-    exames_selecionados = set()
+    exames_selecionados = SortedSet()
     with open('exames_selecionados.txt', 'r') as arquivo:
         for linha in arquivo:
             ultimo_char = len(linha) - 1
             exames_selecionados.add(linha if linha[ultimo_char] != '\n' else linha[:ultimo_char])
 
-    analitos_bruto = set()
+    analitos_bruto = SortedSet()
     for dataframe in dataframes:
         for i in range(0, len(dataframe)):
             if dataframe['de_exame'][i] in exames_selecionados:
@@ -46,7 +60,7 @@ def filter_inputs(dataframes):
         for analito in analitos_bruto:
             arquivo.write(analito + "\n")
 
-    analitos_selecionados = set()
+    analitos_selecionados = SortedSet()
     with open('analitos_selecionados.txt', 'r') as arquivo:
         for linha in arquivo:
             ultimo_char = len(linha) - 1
@@ -64,10 +78,11 @@ def build_dataframe():
     
     to_keep = []
     for i in range(0, len(raw_data)):
-        if raw_data['de_exame'][i] in exames or raw_data['de_analito'][i] in analito:
+        if raw_data['de_exame'][i] in exames and raw_data['de_analito'][i] in analito:
             to_keep.append(i)
 
     raw_data = raw_data.loc[to_keep]
+    raw_data = raw_data.reset_index(drop=True)
 
     return raw_data
 
@@ -78,87 +93,44 @@ def pre_processing(raw_data):
     raw_data['exame'] = raw_data[['de_exame', 'de_analito']].apply(lambda x: ' - '.join(x), axis=1)
     cols = ['id_paciente', 'dt_coleta', 'exame', 'de_resultado', 'de_valor_referencia']
     processed_data = raw_data[cols]
-    processed_data.to_csv('final_data.csv')
 
-    # FIXME: REFATORAR
-    exames = set()
-
+    exames = SortedSet()
     for exame in processed_data['exame']:
-        exames.add(exame)
+        exames.add(exame if exame[-1] != '\n' else exame[:-1])    
     with open('exames_geral.txt', 'w') as arquivo:
         for exame in exames:
             arquivo.write(exame + "\n")
 
+    ids = [str(id) for id in processed_data['id_paciente']]
+    pairs = list(zip(ids, list(processed_data['dt_coleta'])))
+    pairs.sort(key=lambda x: x[0])
+    pairs.sort(key=lambda x: rolling_hash(x[1]))
+
+    cols = ['id_paciente', 'dt_coleta']
+    cols.extend(exames)
+    final_data = pd.DataFrame(columns=cols)
+
+    final_data_list = []
+    size = len(processed_data)
+    for id, dt in pairs:
+        row = {'id_paciente' : id, 'dt_coleta': dt}
+        for i in range(0, size):
+            if id.rstrip("\n") == str(processed_data['id_paciente'][i]).rstrip("\n") and dt == processed_data['dt_coleta'][i]:
+                row[processed_data['exame'][i]] = processed_data['de_resultado'][i]
+        final_data_list.append(row)
+
+    final_data = pd.DataFrame(final_data_list)
+    final_data.to_csv('final_data.csv')
 
     # Remove todas as entradas dos dados que nao possuem
     # todas as features  instanciadas:
     processed_data = processed_data.dropna(how='any')
     return processed_data
 
-
-def visualize_data(data):
-    """Gera graficos das distribuicoes das features e salva em disco"""
-
-    ibm_pltt = ['#648FFF', '#785EF0', '#DC267F',
-                '#FE6100', '#FFB000']  # Paleta colorblind-friendly
-    plt.figure(figsize=(8, 6))
-
-    # RainToday:
-    sns.set()
-    sns.set_palette(sns.color_palette([ibm_pltt[2], ibm_pltt[0]]))
-    sns.countplot(data.RainToday)
-    plt.xlabel('Choveu Hoje?')
-    plt.ylabel('Contagem')
-    plt.title("Valores de 'RainToday' para os dados pré-processados")
-    plt.savefig('data_RainToday.png')
-    plt.clf()
-
-    # RainTomorrow:
-    sns.set()
-    sns.set_palette(sns.color_palette([ibm_pltt[3], ibm_pltt[1]]))
-    sns.countplot(data.RainTomorrow)
-    plt.xlabel('Choverá Amanhã?')
-    plt.ylabel('Contagem')
-    plt.title("Valores de 'RainTomorrow' para os dados pré-processados")
-    plt.savefig('data_Rainomorrow.png')
-    plt.clf()
-
-    # Humidity3pm:
-    sns.set()
-    sns.distplot(data.Humidity3pm, color=ibm_pltt[0])
-    plt.xlabel('Umidade às 3PM')
-    plt.ylabel('Densidade normalizada')
-    plt.title("Distribuição da variável 'Humidity3pm' para os dados pré-processados")
-    plt.savefig('data_Humidity3pm.png')
-    plt.clf()
-
-    # Pressure9am:
-    sns.set()
-    sns.distplot(data.Pressure9am, color=ibm_pltt[4])
-    plt.xlabel('Pressão atmosférica às 9AM')
-    plt.ylabel('Densidade normalizada')
-    plt.title("Distribuição da variável 'Pressure9amm' para os dados pré-processados")
-    plt.savefig('data_Pressure9am.png')
-    plt.clf()
-
-    # Rainfall:
-    sns.set()
-    sns.distplot(data.Rainfall, color=ibm_pltt[1], bins=500, kde=False)
-    plt.xlim(0, 10)
-    plt.xlabel('Pluviosidade')
-    plt.ylabel('Densidade normalizada')
-    plt.title("Distribuição da variável 'Rainfall' para os dados pré-processados")
-    plt.savefig('data_Rainfall.png')
-    plt.clf()
-
-    return
-
-
 def main():
     raw_data = load_data()
     processed_data = pre_processing(raw_data)
     visualize_data(processed_data)
-
 
 if __name__ == "__main__":
     pre_processing(build_dataframe())
